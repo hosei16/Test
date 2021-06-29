@@ -1,0 +1,5 @@
+﻿IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques
+FileSha256,a33da79e55ea52dd3392efb24274ea691a2ee8207f702373488036de0acc6ebf,,AlertAndBlock,High, msadcs.exe,(Cloud exfiltool),Upon being alerted. Further investigation must be done.,,,
+FileSha256,da56716727f513365b2308a0b145028fcd905aca2b9450f7632b4b10c209547d,,AlertAndBlock,High, msadcs.exe,(Cloud exfiltool),Upon being alerted. Further investigation must be done.,,,
+FileSha256,9124266b87b16c02b94125fadfffdd15bc1a5ea714f0dec4962733693a655395,,AlertAndBlock,High, msadcs.exe,(Cloud exfiltool),Upon being alerted. Further investigation must be done.,,,
+FileSha256,66f13964c87fc6fe093a9d8cc0de0bf2b3bdaea9564210283fdb97a1dde9893b,,AlertAndBlock,High,jucheck.exe,WinRAR,Upon being alerted. Further investigation must be done.,,,

@@ -1,0 +1,421 @@
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab:400,300,700");
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway/raleway-regular.eot');
+  src: url('/fonts/raleway/raleway-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/raleway/raleway-regular.woff2') format('woff2'), url('/fonts/raleway/raleway-regular.woff') format('woff'), url('/fonts/raleway/raleway-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway/raleway-semibold.eot');
+  src: url('/fonts/raleway/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('/fonts/raleway/raleway-semibold.woff2') format('woff2'), url('/fonts/raleway/raleway-semibold.woff') format('woff'), url('/fonts/raleway/raleway-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+.btn, .btn-small, .btn-primary-small, .btn-secondary-small, .btn-secondary {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.btn-primary, .btn-primary-small {
+  color: #fff;
+  background-color: #474747;
+}
+.btn-primary:hover, .btn-primary-small:hover, .btn-primary:focus, .btn-primary-small:focus, .btn-primary:active, .btn-primary-small:active, .btn-primary.active, .btn-primary-small.active, .open > .btn-primary.dropdown-toggle, .open > .btn-primary-small.dropdown-toggle {
+  color: #fff;
+  background-color: #2e2e2e;
+}
+.btn-primary:active, .btn-primary-small:active, .btn-primary.active, .btn-primary-small.active, .open > .btn-primary.dropdown-toggle, .open > .btn-primary-small.dropdown-toggle {
+  background-image: none;
+}
+.btn-primary.disabled, .btn-primary-small.disabled, .btn-primary[disabled], .btn-primary-small[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary-small, .btn-primary.disabled:hover, .btn-primary-small.disabled:hover, .btn-primary[disabled]:hover, .btn-primary-small[disabled]:hover, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary-small:hover, .btn-primary.disabled:focus, .btn-primary-small.disabled:focus, .btn-primary[disabled]:focus, .btn-primary-small[disabled]:focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary-small:focus, .btn-primary.disabled:active, .btn-primary-small.disabled:active, .btn-primary[disabled]:active, .btn-primary-small[disabled]:active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary-small:active, .btn-primary.disabled.active, .btn-primary-small.disabled.active, .btn-primary[disabled].active, .btn-primary-small[disabled].active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary-small.active {
+  background-color: #474747;
+}
+.btn-secondary, .btn-secondary-small {
+  color: #474747;
+  background-color: #fff;
+  border-color: #474747;
+}
+.btn-secondary:hover, .btn-secondary-small:hover, .btn-secondary:focus, .btn-secondary-small:focus, .btn-secondary:active, .btn-secondary-small:active, .btn-secondary.active, .btn-secondary-small.active, .open > .btn-secondary.dropdown-toggle, .open > .btn-secondary-small.dropdown-toggle {
+  color: #474747;
+  border-color: #666;
+}
+.btn-secondary:active, .btn-secondary-small:active, .btn-secondary.active, .btn-secondary-small.active, .open > .btn-secondary.dropdown-toggle, .open > .btn-secondary-small.dropdown-toggle {
+  background-image: none;
+}
+.btn-secondary.disabled, .btn-secondary-small.disabled, .btn-secondary[disabled], .btn-secondary-small[disabled], fieldset[disabled] .btn-secondary, fieldset[disabled] .btn-secondary-small, .btn-secondary.disabled:hover, .btn-secondary-small.disabled:hover, .btn-secondary[disabled]:hover, .btn-secondary-small[disabled]:hover, fieldset[disabled] .btn-secondary:hover, fieldset[disabled] .btn-secondary-small:hover, .btn-secondary.disabled:focus, .btn-secondary-small.disabled:focus, .btn-secondary[disabled]:focus, .btn-secondary-small[disabled]:focus, fieldset[disabled] .btn-secondary:focus, fieldset[disabled] .btn-secondary-small:focus, .btn-secondary.disabled:active, .btn-secondary-small.disabled:active, .btn-secondary[disabled]:active, .btn-secondary-small[disabled]:active, fieldset[disabled] .btn-secondary:active, fieldset[disabled] .btn-secondary-small:active, .btn-secondary.disabled.active, .btn-secondary-small.disabled.active, .btn-secondary[disabled].active, .btn-secondary-small[disabled].active, fieldset[disabled] .btn-secondary.active, fieldset[disabled] .btn-secondary-small.active {
+  background-color: #fff;
+  border-color: #474747;
+}
+.icon-base {
+  color: #3876b9;
+}
+.btn-group-justified > .btn {
+  border-color: #474747;
+}
+.btn-group-justified > .btn:not(.active):hover, .btn-group-justified > .btn:not(.active):focus {
+  background-color: transparent;
+}
+.btn-group-justified > .btn.active {
+  background-color: #474747;
+  color: #fff;
+}
+.btn-group-justified > .btn.active:hover, .btn-group-justified > .btn.active:focus {
+  background-color: #474747;
+}
+.input-box {
+  color: #1062a4;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.input-box:focus, .input-box:hover {
+  border-color: rgba(71, 71, 71, 0.7);
+}
+.input-box::placeholder, .placeholder {
+  color: rgba(123, 123, 123, 0.7);
+}
+.form-clear {
+  color: #1062a4;
+}
+.input-tick[type="checkbox"]:checked + label::after {
+  border-color: #474747;
+}
+.input-tick[type="radio"]:checked + label::before {
+  background-image: radial-gradient(circle at center, #474747 0.6ex, #fff 0.7ex);
+}
+.bootstrap-select {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.bootstrap-select > .btn:hover {
+  border-color: rgba(71, 71, 71, 0.7);
+}
+.border-required {
+  border-color: #474747 !important;
+}
+.slider-handle {
+  background-image: none;
+  background-color: #474747;
+}
+label {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.icon, .icon-message {
+  color: #474747;
+}
+.icon-base {
+  color: #3876b9;
+}
+.primary-head {
+  background: #474747;
+  color: #fff;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.primary-head a {
+  color: #fff;
+}
+.secondary-head {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.section-content .header-icon {
+  color: #1062a4;
+}
+.section-content .right-icon {
+  color: #474747;
+}
+.collapse-actions {
+  background-color: #f5f5f5;
+}
+.collapse-actions .collapse-action {
+  color: #474747;
+}
+.modal-header {
+  background: #fc0;
+  color: #000;
+}
+.modal-header .close {
+  background: #d67e02;
+}
+.panel-title .ico-circle-minus {
+  color: #474747;
+}
+.menu-collapse {
+  background-color: #313131;
+}
+.table-normal .header, .table-normal .footer {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+p, .p {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.color-primary-background {
+  background-color: #474747;
+}
+.color-primary-border {
+  border-color: #474747;
+}
+.color-primary-font {
+  color: #474747;
+}
+.font-serif {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.font-sans-serif {
+  font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.title {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+body {
+  font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav.sidebar .close-sidebar {
+  background: #918b8b;
+  color: #fff;
+}
+nav.sidebar .sidebar-inner {
+  background: #474747;
+  color: #fff;
+}
+nav.sidebar .sidebar-head h2 {
+  background: #474747;
+}
+nav.sidebar .sidebar-head .user-control {
+  color: #fff;
+}
+nav.sidebar .sidebar-head .user-control .auth-link {
+  color: #fc0;
+}
+nav.sidebar .logo-link {
+  background-image: url("/images/logo.png");
+}
+nav.sidebar .group h3 {
+  background: #313131;
+}
+nav.sidebar .menu li:hover {
+  background-color: #545454;
+}
+nav.sidebar .menu li:focus, nav.sidebar .menu li:active {
+  background-color: #313131;
+}
+nav.sidebar .menu li.selected {
+  background-color: #313131;
+  color: #fff;
+}
+nav.sidebar .menu li a, nav.sidebar .menu .panel-heading a {
+  color: #fff;
+}
+nav.sidebar .menu .count {
+  background-color: #fff;
+  color: #474747;
+}
+nav.sidebar .menu-collapse li:hover {
+  background-color: #3e3e3e;
+}
+.page-header {
+  color: #000;
+  background: #fc0;
+}
+.page-header .header-left, .page-header .header-right {
+  background: #d67e02;
+}
+.page-header .header-left .btn-favorites .count, .page-header .header-right .btn-favorites .count {
+  background-color: #000;
+  color: #d67e02;
+}
+.page-header .btn-open {
+  background: #474747;
+  color: #fff;
+}
+nav.app-options-menu {
+  background: #474747;
+  color: #fff;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+nav.app-options-menu .section-title {
+  background: #313131;
+}
+nav.app-options-menu ul li:hover {
+  background-color: #918b8b;
+}
+nav.app-options-menu ul li:focus {
+  background-color: #474747;
+}
+nav.app-options-menu + .close-options {
+  background-color: #918b8b;
+  color: #fff;
+}
+.header-bar {
+  color: #000;
+}
+.search-bar {
+  border-color: #000;
+}
+.search-bar > input::placeholder {
+  color: #000;
+}
+.home-content:before {
+  background-image: url("/images/branding/tu_bg2.jpg"), url("/images/branding/tu_bg2.low.jpg");
+}
+.widget {
+  border-color: #474747;
+}
+.springboard-header {
+  color: #fff;
+}
+section.main.tinted {
+  background-color: #474747;
+}
+section.main.faded {
+  background-color: #212121;
+}
+section.main .background {
+  background-image: url("/images/branding/tu_bg2.jpg"), url("/images/branding/tu_bg2.low.jpg");
+}
+nav.springboard-options-menu {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+nav.springboard-options-menu a {
+  color: #fff;
+}
+nav.springboard-options-menu .header-bar {
+  color: #fff;
+}
+.springboard .block-tile .descr {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.springboard .block-sm .block-content, .springboard .block-sm .handle {
+  border-radius: 12px;
+}
+.springboard .block-md .block-content, .springboard .block-md .handle {
+  border-radius: 12px;
+}
+.springboard .block-lg .block-content, .springboard .block-lg .handle {
+  border-radius: 12px;
+}
+.springboard .block-content .feed {
+  height: 109px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 1px;
+}
+.springboard .block-content .feed article {
+  min-height: 109px;
+}
+#degree-progress-app .career-heading {
+  background-color: #474747;
+}
+#degree-progress-app .career-heading .panel-title {
+  color: #fff;
+}
+#degree-progress-app .career-heading:before {
+  background-image: url("/images/branding/tu_bg2.jpg");
+}
+#degree-progress-app .career-select.bootstrap-select.bootstrap-select-transparent > .btn {
+  border-color: #fff;
+  color: #fff;
+}
+#degree-progress-app .progress-circles .circle-line {
+  stroke: #fff;
+}
+#degree-progress-app .circle-progress .circle-text, #degree-progress-app .circle-progress .circle-label {
+  color: #fff;
+}
+#degree-progress-app .group-state-icon:before {
+  color: #b9b9b9;
+}
+#degree-progress-app .group.is-active .group-state-icon:before {
+  color: #474747;
+}
+#degree-progress-app .vertical-progress-bar {
+  background-color: #f5f5f5;
+}
+#degree-progress-app .vertical-progress-bar-fill {
+  background-color: #5cb85c;
+}
+#degree-progress-app .vertical-progress-text.gt-30 {
+  color: #fff;
+}
+#degree-progress-app .legend-block-units, #degree-progress-app .progress-bar-units {
+  background-color: #5cb85c;
+}
+#degree-progress-app .legend-block-gpa, #degree-progress-app .progress-bar-gpa {
+  background-color: #5bc0de;
+}
+#degree-progress-app .legend-block-courses, #degree-progress-app .progress-bar-courses {
+  background-color: #b56fb5;
+}
+#degree-progress-app .progress-bar {
+  color: #fff;
+}
+#degree-progress-app .requirement-heading .panel-title {
+  background: #f5f5f5;
+}
+#degree-progress-app .requirement.is-active .requirement-state-icon:before {
+  color: #474747;
+}
+#degree-progress-app .requirement-state-icon:before {
+  color: #b9b9b9;
+}
+#degree-progress-app .line-state-icon:before {
+  color: #b9b9b9;
+}
+#degree-progress-app .line.is-active .line-state-icon:before {
+  color: #474747;
+}
+.degree-progress-close-icon {
+  color: #fff;
+}
+.courses-modal {
+  background: #fff;
+}
+.courses-modal .course .grade-icon {
+  background-color: #474747;
+  color: #fff;
+}
+.courses-modal .course .label {
+  color: #fff;
+  background-color: #5cb85c;
+}
+.courses-modal .sort.btn.btn-transparent-warning {
+  border-color: #fff;
+  color: #fff;
+}
+.courses-modal .sort.btn.btn-transparent-warning:hover, .courses-modal .sort.btn.btn-transparent-warning.active {
+  background: #fff;
+  color: #474747;
+  border-color: #474747;
+}
+.courses-heading {
+  background: #474747;
+  color: #fff;
+}
+.courses-heading .help-icon {
+  background: #fff;
+  color: #474747;
+  border-color: #fff;
+}
+.courses-heading .subtext {
+  color: #fff;
+}
+.class-search-controls div.search-heading {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+}
+.log-container .log-table th {
+  background-color: #474747;
+  color: #000;
+}
+.log-container .log-table th:first-child {
+  border-left-color: #474747;
+}
+.log-container .log-table th:last-child {
+  border-right-color: #474747;
+}
+.log-container .dataTables_paginate .paginate_button.current {
+  background-color: #474747;
+  color: #000;
+}
+.log-container .dataTables_paginate .paginate_button:not(.current):not(.disabled):hover {
+  background-color: #918b8b;
+}

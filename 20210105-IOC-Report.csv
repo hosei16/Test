@@ -1,0 +1,6 @@
+﻿IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques
+FileSha256,fdf1899eb1457acc2a59b89b0542d53cddcb5553e6fc53ced099473a59fce67c,,AlertAndBlock,High,goopdate.dll,SIDELOADED MALICIOUS GOOPDATE.DLL,Upon being alerted furhter investigation must be done.,,,
+FileSha256,017a10eebddd3a1aca9b035413906da562331c6d1675efb02bb63bbe13b99165,,AlertAndBlock,High,goopdate.dll,SIDELOADED MALICIOUS GOOPDATE.DLL,Upon being alerted furhter investigation must be done.,,,
+FileSha256,98a0a78219aa7d67865615090d53916c9b4e7d3ea900080c268806c48bb41499,,AlertAndBlock,High,English.rtf,ENCRYPTED CLAMBLING PAYLOAD,Upon being alerted furhter investigation must be done.,,,
+DomainName,www.kkxx888666.com,,AlertAndBlock,High,C2,APT 27,Upon being alerted furhter investigation must be done.,,,
+DomainName,www.betwln520.com,,AlertAndBlock,High,C2,APT 27,Upon being alerted furhter investigation must be done.,,,

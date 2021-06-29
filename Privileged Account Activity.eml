@@ -1,0 +1,349 @@
+Received: from BL0PR07MB5731.namprd07.prod.outlook.com (2603:10b6:3:151::18)
+ by DM6PR07MB6204.namprd07.prod.outlook.com with HTTPS via
+ DM5PR19CA0008.NAMPRD19.PROD.OUTLOOK.COM; Fri, 10 Jul 2020 18:58:37 +0000
+Authentication-Results: x8llc.com; dkim=none (message not signed)
+ header.d=none;x8llc.com; dmarc=none action=none header.from=x8llc.com;
+Received: from MN2PR07MB6751.namprd07.prod.outlook.com (2603:10b6:208:16c::28)
+ by BL0PR07MB5731.namprd07.prod.outlook.com (2603:10b6:208:82::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3174.20; Fri, 10 Jul
+ 2020 18:58:33 +0000
+Received: from MN2PR07MB6751.namprd07.prod.outlook.com
+ ([fe80::1444:32e3:c1d9:1d8f]) by MN2PR07MB6751.namprd07.prod.outlook.com
+ ([fe80::1444:32e3:c1d9:1d8f%6]) with mapi id 15.20.3174.023; Fri, 10 Jul 2020
+ 18:58:33 +0000
+From: "Michael D. Sutton" <msutton@x8llc.com>
+To: "Henry N. Osei" <hosei@x8llc.com>
+CC: "Sterling S. Rooke" <srooke@x8llc.com>
+Subject: Privileged Account Activity
+Thread-Topic: Privileged Account Activity
+Thread-Index: AdZW6sUcKATn3ckTT227blzvSj6IQA==
+Date: Fri, 10 Jul 2020 18:58:32 +0000
+Message-ID:
+ <MN2PR07MB6751E98149EBD779A860AD83FC650@MN2PR07MB6751.namprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+ <MN2PR07MB6751E98149EBD779A860AD83FC650@MN2PR07MB6751.namprd07.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: MN2PR07MB6751.namprd07.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [73.129.84.126]
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3de024d3-aa95-462d-e7eb-08d825033e21
+X-MS-PublicTrafficType: Email
+Return-Path: msutton@x8llc.com
+X-MS-Exchange-Organization-ExpirationStartTime: 10 Jul 2020 18:58:33.2224
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 3de024d3-aa95-462d-e7eb-08d825033e21
+X-MS-TrafficTypeDiagnostic: BL0PR07MB5731:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Transport-Forked: True
+X-MS-Oob-TLC-OOBClassifiers: OLM:10000;
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR07MB6751.namprd07.prod.outlook.com;PTR:;CAT:NONE;SFTY:;SFS:;DIR:INB;SFP:;
+X-MS-Exchange-AntiSpam-MessageData:
+ 32xnQ86+dJbPDryuUmcY7cPNPiR49xVWc5mm1loo1P+E0B5Iogab7sr8hA9gZIDE6nHtad2CdRD/ozyztxYtz7p6fKw1i0tXLqUHOiHWea3CiXS7ne769aOMJCJrbMJqf8/xl9FR9tl7zKK4m44j2oC6BSsJzLGFZJoAPG6+4at2ThXOMKnOw3CIdsKlFx1dz6zVuH46YloxZvcUpRGP79KV9nWGk3Eqaa+K97s9TjEoDYP5l/rLO/D/Ou529HIZYWF+lREzGBrMwVGV+ZIwc0/pTiy0/4fqHqlSwae/Rri9d1xTPl9ibxG0wlm+Hxndc+HwAm0EEauAiu+HyRWaTZVqeJK/0yY+DqJDZTsm69pu1XoYEO811aNf3lCtoRC2EL3ZrAnNpspVa5gO1/UncUv5jKUd4LPiYwM/xLPPlF79InEhbqEi0tW3VmrZehOKfEx1DsRremNKSAPp/A4LyM6qfFc6giGXdtwWsshVj5w=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Jul 2020 18:58:32.9544
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 6e02d630-648a-4786-bee7-37007d451b03
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR07MB6751.namprd07.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3de024d3-aa95-462d-e7eb-08d825033e21
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: iO4hBxeFFztk8VlU8dJ5Lk9puX2V6Tgk8Xmsn8XTVsw9sjQYZkKkZht4rWPmniKd9aSXdR6bB/QiXjddAqmuuQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0PR07MB5731
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.9236242
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3174.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(750128)(520011016)(706158)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	EGGYgXbixUBf+F6nd4txldf5xlnAPr0vdSufD730iIwiYkFsCN8RX8WAk5r6Do6KzTpU9wMII4IEBNar+iMAkLGFXooMbLmJNF3K+9PYeqjj/1/Lwslp4r1Jk6WIAAFn9rFXSfszrvHG6nWZONaWq+mlu1o/91Nsj8B/6iAajEybOsYDrMEY8Z6CJEIfGsa0xUM7wsyBxFktBj/Vt/L39gGw5LA58B/A4SnLIylzXg71SOYOtSIwCtjdakc660UanWkd7c4GhXc+IP4nCt7LnBLDopflB718SVUnVxUX/NGseU8wsI8+8dR9sAn9XidFbSs3Z5cnFRLqupy81TbYM480ViSPH5CS89FCsiIwMz81jlfBsRiRS39uF5On8aCGh8OzWQD4T5fpiSr+nRwRYrnCRt8/HAzZpt0qpKQinak=
+Content-type: multipart/alternative;
+	boundary="B_3677238859_1847815740"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3677238859_1847815740
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+Hi Henry,
+
+=20
+
+For your awareness, today I made a number of account changes in Active Dire=
+ctory that you should be aware of for when you conduct your weekly review of=
+ privileged account activity.
+As part of the instantiation of the Azure managed domain, the security grou=
+p =E2=80=9CAAD DC Administrators=E2=80=9D was created. I assigned my account to it and w=
+ill remove it once the configurations are complete.
+I created the account =E2=80=9Cadmsuttonmd@x8llc.com=E2=80=9D and assigned it to the =E2=80=
+=9CAAD DC Administrators=E2=80=9D security group. This account has no M365 permissio=
+ns or licenses and is meant for the management of the new domain, corp.x8llc=
+.com.
+We will be creating you a similar account as well.
+After speaking with Sterling (CC=E2=80=99d), I removed the account =E2=80=9COld: Alex R=
+uiz=E2=80=9D.
+=20
+
+If you have any questions or see account activity outside of these actions =
+during your next review, please let me know.
+
+=20
+
+Thanks again!
+
+=20
+
+(P.S. =E2=80=93 Please save this email to the =E2=80=9CSupporting Documentation=E2=80=9D fold=
+er within the =E2=80=9CPrivileged Activity Usage=E2=80=9D folder containing the reports =
+in Teams.)
+
+=20
+
+Michael D. Sutton
+
+Chief Information Security Officer
+
+X8 LLC
+
+1743 Dorsey Road, Suite 112
+
+Hanover, MD 21076
+
+Office:  888.836.4498  Ext: 110
+
+Fax: 443.333.4764=20
+
+DUNS: 967653648
+
+Cage Code:  6DM31
+
+www.x8llc.com=20
+
+=20
+
+Confidentiality Notice: This communication is intended for the sole use of =
+the individual to whom it is addressed and may contain information that is p=
+rivileged, confidential, and exempt from disclosure under applicable law. If=
+ the reader of this communication is not the intended recipient or the emplo=
+yee or agent responsible for delivering the communication to the intended re=
+cipient, you are hereby notified that any dissemination, distribution, or co=
+pying of this communication is strictly prohibited. If you have received thi=
+s communication in error, please notify the sender immediately and delete al=
+l copies from your and your organization's system.
+
+=20
+
+
+--B_3677238859_1847815740
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsof=
+t-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" xmlns:m=
+=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org=
+/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta na=
+me=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:637804907;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-739627146 -2119954248 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:20.25pt;
+	text-indent:-.25in;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:56.25pt;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:92.25pt;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:128.25pt;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:164.25pt;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:200.25pt;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:236.25pt;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:272.25pt;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:308.25pt;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-US" link=3D"#0563C1" =
+vlink=3D"#954F72"><div class=3D"WordSection1"><p class=3D"MsoNormal">Hi Henry,<o:p=
+></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Fo=
+r your awareness, today I made a number of account changes in Active Directo=
+ry that you should be aware of for when you conduct your weekly review of pr=
+ivileged account activity.<o:p></o:p></p><ul style=3D"margin-top:0in" type=3D"di=
+sc"><li class=3D"MsoListParagraph" style=3D"margin-left:-15.75pt;mso-list:l0 lev=
+el1 lfo1">As part of the instantiation of the Azure managed domain, the secu=
+rity group =E2=80=9CAAD DC Administrators=E2=80=9D was created. I assigned my account to=
+ it and will remove it once the configurations are complete.<o:p></o:p></li>=
+<li class=3D"MsoListParagraph" style=3D"margin-left:-15.75pt;mso-list:l0 level1 =
+lfo1">I created the account =E2=80=9Cadmsuttonmd@x8llc.com=E2=80=9D and assigned it to t=
+he =E2=80=9CAAD DC Administrators=E2=80=9D security group. This account has no M365 perm=
+issions or licenses and is meant for the management of the new domain, corp.=
+x8llc.com.<o:p></o:p></li><ul style=3D"margin-top:0in" type=3D"circle"><li class=
+=3D"MsoListParagraph" style=3D"margin-left:-15.75pt;mso-list:l0 level2 lfo1">We =
+will be creating you a similar account as well.<o:p></o:p></li></ul><li clas=
+s=3D"MsoListParagraph" style=3D"margin-left:-15.75pt;mso-list:l0 level1 lfo1">Af=
+ter speaking with Sterling (CC=E2=80=99d), I removed the account =E2=80=9COld: Alex Ruiz=
+=E2=80=9D.<o:p></o:p></li></ul><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D=
+"MsoNormal">If you have any questions or see account activity outside of the=
+se actions during your next review, please let me know.<o:p></o:p></p><p cla=
+ss=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Thanks again!<o:p><=
+/o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">(P.S=
+. =E2=80=93 Please save this email to the =E2=80=9CSupporting Documentation=E2=80=9D folder wi=
+thin the =E2=80=9CPrivileged Activity Usage=E2=80=9D folder containing the reports in Te=
+ams.)<o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoN=
+ormal"><b>Michael D. Sutton<o:p></o:p></b></p><p class=3D"MsoNormal"><span sty=
+le=3D"font-size:10.0pt">Chief Information Security Officer<o:p></o:p></span></=
+p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">X8 LLC<o:p></o:p></spa=
+n></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">1743 Dorsey Road, =
+Suite 112<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:1=
+0.0pt">Hanover, MD 21076<o:p></o:p></span></p><p class=3D"MsoNormal"><span sty=
+le=3D"font-size:10.0pt">Office:&nbsp; 888.836.4498&nbsp; Ext: 110<o:p></o:p></=
+span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Fax: 443.333.47=
+64 <o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt"=
+>DUNS: 967653648<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font=
+-size:10.0pt">Cage Code:&nbsp; 6DM31<o:p></o:p></span></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:9.0pt">www.x8llc.com <o:p></o:p></span></p><p clas=
+s=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><b><span style=3D"font=
+-size:9.0pt">Confidentiality Notice:</span></b><span style=3D"font-size:9.0pt"=
+> This communication is intended for the sole use of the individual to whom =
+it is addressed and may contain information that is privileged, confidential=
+, and exempt from disclosure under applicable law. If the reader of this com=
+munication is not the intended recipient or the employee or agent responsibl=
+e for delivering the communication to the intended recipient, you are hereby=
+ notified that any dissemination, distribution, or copying of this communica=
+tion is strictly prohibited. If you have received this communication in erro=
+r, please notify the sender immediately and delete all copies from your and =
+your organization's system.<o:p></o:p></span></p><p class=3D"MsoNormal"><o:p>&=
+nbsp;</o:p></p></div></body></html>
+
+--B_3677238859_1847815740--
+

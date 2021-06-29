@@ -1,0 +1,129 @@
+import java.util.*;
+import java.io.*;
+public class Assignment5_Problem2
+{
+static String names[];
+
+public static void merge(String array[], int l, int m, int r)
+{
+
+int n1 = m - l + 1;
+int n2 = r - m;
+
+String Left[] = new String[n1];
+String Right[] = new String[n2];
+
+for (int c = 0; c < n1; ++c)
+Left[c] = array[l + c];
+for (int d = 0; d < n2; ++d)
+Right[d] = array[m + 1 + d];
+
+int c = 0, d = 0;
+
+int k = l;
+
+while (c < n1 && d < n2)
+{
+
+if (Left[c].compareTo(Right[d]) < 0)
+{
+
+array[k] = Left[c];
+
+c++;
+} 
+// Otherwise
+else
+{
+
+array[k] = Right[d];
+
+d++;
+}
+k++;
+} 
+while (c < n1)
+{
+array[k] = Left[c];
+
+c++;
+
+k++;
+} 
+while (d < n2)
+{
+array[k] = Right[d];
+
+d++;
+
+k++;
+} 
+}
+public static void mSort(String names[], int start, int len)
+{
+if (start < len)
+{
+
+int mid = (start + len) / 2;
+
+mSort(names, start, mid);
+mSort(names, mid + 1, len);
+
+merge(names, start, mid, len);
+} 
+}
+static void readFile(String fileName)
+{
+int c = 0, countNames = 0;
+// Try block
+try
+{
+
+File reader = new File ("//Users/dewbabyo/Desktop/names.txt");
+
+Scanner sc = new Scanner(System.in);
+
+while (sc.hasNextLine())
+{
+
+sc.nextLine();
+
+countNames++;
+} 
+names = new String[countNames];
+
+sc.close();
+
+sc = new Scanner(reader);
+
+while (sc.hasNextLine())
+{
+
+names[c] = sc.nextLine();
+
+c++;
+} 
+
+sc.close();
+} 
+
+catch (FileNotFoundException e)
+{
+System.out.println("File Not found");
+e.printStackTrace();
+} 
+}
+public static void main(String[] args)
+{
+
+readFile("Names.txt");
+System.out.println("Names Before merger Sort\n");
+for (int c = 0; c < names.length; c++)
+System.out.println(names[c]);
+
+mSort(names, 0, names.length - 1);
+System.out.println("\n\nNames After merger Sort\n");
+for (int c = 0; c < names.length; c++)
+System.out.println(names[c]);
+}
+}

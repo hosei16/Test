@@ -1,0 +1,4 @@
+IndicatorType,IndicatorValue,ExpirationTime,Action,Severity,Title,Description,RecommendedActions,RbacGroups,Category,MitreTechniques
+DomainName,de-ma.online,,AlertAndBlock,High,Phosphorus Threat Actor,Domain used for credential harvesting,Further Investigation upon being alerted.,,,
+DomainName,g20saudi.000webhostapp.com,,AlertAndBlock,High,Phosphorus Threat Actor,Subdomain used for credential harvesting,Further Investigation upon being alerted.,,,
+DomainName,ksat20.000webhostapp.com,,AlertAndBlock,High,Phosphorus Threat Actor,Subdomain used for credential harvesting,Further Investigation upon being alerted.,,,

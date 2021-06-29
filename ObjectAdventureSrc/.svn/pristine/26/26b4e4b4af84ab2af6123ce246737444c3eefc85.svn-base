@@ -1,0 +1,1 @@
+Don't add any players just yet.  A new player types will be added for the next phase.

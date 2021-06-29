@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package objectAdventure.creatures.creatureImpl;
+import objectAdventure.creatures.*;
+import objectAdventure.items.itemImpl.*;
+import java.util.*;
+
+/**
+ *
+ * @author Olashupo
+ */
+public class BlackPanther implements Creature{
+    private static final int Room_ID = 28;
+    
+    public BlackPanther(){
+        super();
+    }
+
+    @Override
+    public List<String> getAlias() {
+        return Creature.super.getAlias(); //To change body of generated methods, choose Tools | Templates.
+    }
+    @Override
+    public String getCreaturesDescription(){
+        return "The ghost of the forest";
+    }
+    
+    
+}

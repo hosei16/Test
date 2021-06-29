@@ -1,0 +1,17 @@
+code.o:
+(__TEXT,__text) section
+_sum:
+0000000000000000	pushq	%rbp
+0000000000000001	movq	%rsp, %rbp
+0000000000000004	addl	%esi, %edi
+0000000000000006	addl	%edi, _accum(%rip)
+000000000000000c	movl	%edi, %eax
+000000000000000e	popq	%rbp
+000000000000000f	retq
+_main:
+0000000000000010	pushq	%rbp
+0000000000000011	movq	%rsp, %rbp
+0000000000000014	movl	$0x4, %edi
+0000000000000019	movl	$0x8, %esi
+000000000000001e	popq	%rbp
+000000000000001f	jmp	_sum

@@ -1,0 +1,574 @@
+							Henry Osei
+							COSC 439
+							2/21/19
+										
+1.
+
+pwd:
+/home/dewbabyo
+
+
+2.
+
+ls -p:
+total 52
+ 4 Desktop
+ 4 Documents
+ 4 Downloads
+12 examples.desktop
+ 4 Linux
+ 4 Ll
+ 4 Music
+ 4 Pictures
+ 4 Public
+ 4 Templates
+ 4 Videos
+
+3.
+
+ifconfig:
+np0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::1d16:ffc4:7dc4:4ccb  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:b1:f6:ec  txqueuelen 1000  (Ethernet)
+4.
+
+date:
+ج شباط 15 20:09:53 EET 2019
+
+5.
+
+cal:
+       
+ ح  ن  ث  ر  خ  ج  س  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 13 14 _1_5 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28        
+                      
+
+6.
+
+w:
+
+20:12:58 up 34 min,  1 user,  load average: 0.23, 0.17, 0.12
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+dewbabyo :0       :0               19:40   ?xdm?  30.89s  0.00s /usr/lib/gdm3/gdm-x-session --run
+
+
+
+7.
+
+whomai:
+dewbabyo
+
+8.
+
+finger user:
+
+dewbabyo
+Login: cups-pk-helper 			Name: user for cups-pk-helper service
+Directory: /home/cups-pk-helper     	Shell: /usr/sbin/nologin
+Never logged in.
+No mail.
+No Plan.
+
+9.
+
+uname -a:
+
+Linux dewbabyo-VirtualBox 4.18.0-10-generic #11-Ubuntu SMP Thu Oct 11 15:13:55 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+10.
+
+df:
+
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             1997300       0   1997300   0% /dev
+tmpfs             403956    1292    402664   1% /run
+/dev/sda5       11013336 5160024   5274140  50% /
+tmpfs            2019780       0   2019780   0% /dev/shm
+
+11.
+
+du:
+
+4	./Music
+4	./.gnupg/private-keys-v1.d
+16	./.gnupg
+4	./Public
+4	./Downloads
+4	./Templates
+4	./.ssh
+4	./Documents
+
+12.
+
+free:
+
+              total        used        free      shared  buff/cache   available
+Mem:        4039560      915612     1122820      519200     2001128     2352088
+Swap:       5345276           0     5345276
+
+
+13.
+
+ping host:
+
+PING host(ip6-localhost (::1)) 56 data bytes
+64 bytes from ip6-localhost (::1): icmp_seq=1 ttl=64 time=0.020 ms
+64 bytes from ip6-localhost (::1): icmp_seq=2 ttl=64 time=0.042 ms
+64 bytes from ip6-localhost (::1): icmp_seq=3 ttl=64 time=0.034 ms
+
+14.
+
+sudo apt install whois:
+
+sudo gives administrative access
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  whois
+0 upgraded, 1 newly installed, 0 to remove and 225 not upgraded.
+Need to get 43.3 kB of archives.
+After this operation, 262 kB of additional disk space will be used.
+Get:1 http://sy.archive.ubuntu.com/ubuntu cosmic/main amd64 whois amd64 5.3.2 [43.3 kB]
+Fetched 43.3 kB in 0s (112 kB/s)
+Selecting previously unselected package whois.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+
+15.
+
+whois domain:
+No whois server is known for this kind of object.
+
+16.
+
+dig domain:
+
+; <<>> DiG 9.11.4-3ubuntu5-Ubuntu <<>> domain
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 52603
+
+.
+
+17.
+
+moo:
+
+  PID TTY          TIME CMD
+ 5441 pts/0    00:00:00 bash
+ 5465 pts/0    00:00:00 ping
+ 6272 pts/0    00:00:00 ps
+
+18.
+
+sudo su:
+
+root@dewbabyo-VirtualBox:/home/dewbabyo#
+
+19.
+
+locate file:
+
+/bin/lessfile
+/bin/systemd-tmpfiles
+/bin/tempfile
+/boot/grub/i386-pc/configfile.mod
+/boot/grub/i386-pc/file.mod
+/boot/grub/i386-pc/search_fs_file.mod
+/etc/profile
+
+20.
+
+help:
+
+ob_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec |
+
+21.
+
+echo henry:
+
+henry
+
+22.
+
+bzip2 lo:
+
+File was compressed
+
+23.
+
+shred -zuv moo:
+
+shred: moo: pass 1/4 (random)...
+shred: moo: pass 2/4 (random)...
+shred: moo: pass 3/4 (random)...
+shred: moo: pass 4/4 (000000)...
+shred: moo: removing
+shred: moo: renamed to 000
+shred: moo: removed
+
+24.
+rm lo.bz2:
+
+file remved
+
+25.
+
+man man:
+
+MAN(1)                        Manual pager utils                        MAN(1)
+
+NAME
+       man - an interface to the on-line reference manuals
+
+SYNOPSIS
+       man  [-C  file]  [-d]  [-D]  [--warnings[=warnings]]  [-R encoding] [-L
+       locale] [-m system[,...]] [-M path] [-S list]  [-e  extension]  [-i|-I]
+
+26.
+
+which rm:
+
+/bin/rm
+
+27.
+
+history:
+1  ./VBoxLinuxAddittions.run
+    2  ./VboxLinuxAdditions.run
+    3  sudo ./VBoxLinuxAdditions.run
+    4  pwd > LinuxAssignment
+    5  cd /usr/share >> LinuxAssignment
+
+
+28.
+
+ssh Myserver:
+
+ssh: connect to host myserver port 22: Connection refused
+
+
+
+29.
+
+lsof:
+
+COMMAND     PID   TID             USER   FD      TYPE             DEVICE SIZE/OFF       NODE NAME
+systemd       1                   root  cwd   unknown                                        /proc/1/cwd (readlink: Permission denied)
+systemd       1                   root  rtd   unknown                                        /proc/1/root (readlink: Permission denied)
+systemd       1                   root  txt   unknown                                        /proc/1/exe
+
+30.
+netstat:
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 dewbabyo-VirtualB:51952 156.99.224.35.bc.g:http TIME_WAIT  
+Active UNIX domain sockets (w/o servers)
+
+31.
+display mypic.png:
+
+displayed picture
+
+32.
+convert mypic.png -resize 550x500\> mypic2.png:
+
+picture converted
+
+33.
+gnupg --gen-key:
+
+Email address: tiffany@co.com
+You selected this USER-ID:
+    "gnupg --gen-key <tiffany@co.com>"
+
+34.
+gpg2 --gen-key:
+
+public and secret key created and signed.
+
+pub   rsa3072 2019-02-21 [SC] [expires: 2021-02-20]
+      05468F89FD3E65E7400E8F26B727568271C2E3CB
+uid                      gnupg <tiffany@co.com>
+
+35.
+
+elinks www.ebay.com:
+
+provided webpages 
+
+36.
+watch qstat:
+
+provided job status
+
+37.
+mktemp:
+/tmp/tmp.oUQw8PCbP2
+
+spits out name of directory it makes
+
+38.
+sort cowgirl.txt:
+
+34
+af
+awfjo
+beb 
+dew
+ff
+vfw
+
+39.
+readlink -m mydir:
+
+/home/dewbabyo/mydir
+
+40.
+less cowgirl.txt:
+
+allowed me to view the text
+
+
+41.
+touch crapfile:
+
+creates file with whatever title you want
+
+42.
+head cowgirl.txt:
+winner winner chicken dinner. i am typing this to explain the perseverance of the world. Today is some day that is in february but that does not matter because II will continue typing until i am at an length that is acceptable acceptable in which i will understand the technique of head and tail.
+
+43.
+tail cowgirl.txt:
+
+ tail who i am not tailing anyone because i know where i come from. gunna is an amazing rapper god bless him and everyone around him. strong people around you keep you strong.
+
+
+44.
+top:
+
+Tasks: 183 total,   1 running, 181 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 14.2 us,  0.7 sy,  0.3 ni, 84.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3944.9 total,    135.5 free,   1052.7 used,   2756.7 buff/cache
+MiB Swap:   5220.0 total,   5218.5 free,      1.5 used.   2328.0 avail Mem 
+
+  
+45.
+
+traceroute 10.0.2.15:
+
+traceroute to 10.0.2.15 (10.0.2.15), 64 hops max
+  1   10.0.2.15  0.003ms  0.002ms  0.002ms
+
+46.
+vmstat:
+
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0   1548 233792 115052 2613052    0    0   208   488  144  715  6  1 92  0  
+
+
+47.
+seq 1 2 10:
+
+1
+3
+5
+7
+9
+
+48.
+sleep 5:
+
+paused for 5 seconds
+
+49.
+ps -A:
+
+  PID TTY          TIME CMD
+    1 ?        00:00:07 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 rcu_gp
+
+
+50.
+alias:
+
+prints all current aliases
+
+51.
+
+chmod u+x crapfile:
+
+makes file executable
+
+52.
+
+declare:
+
+declare
+BASH=/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
+
+53.
+enable:
+
+enable break
+enable builtin
+enable caller
+
+54.
+Gawk:
+
+gawk 
+Usage: gawk [POSIX or GNU style options] -f progfile [--] file
+
+
+
+------------------------------------------------------------------------------------------
+C code:
+
+#include <stdio.h>
+
+int accum =0;
+
+int sum (int x, int y)
+{
+	int t = x + y;
+	accum+=t;
+	return t;
+}
+
+int main()
+{
+	return sum(4, 8); 
+}
+////////////////////////////////////
+
+Objdump:
+
+	.macosx_version_min 10, 11
+	.globl	_sum
+	.align	4, 0x90
+_sum:                                   ## @sum
+	.cfi_startproc
+## BB#0:
+	pushq	%rbp
+Ltmp0:
+	.cfi_def_cfa_offset 16
+Ltmp1:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+Ltmp2:
+	.cfi_def_cfa_register %rbp
+	addl	%esi, %edi
+	addl	%edi, _accum(%rip)
+	movl	%edi, %eax
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.globl	_main
+	.align	4, 0x90
+_main:                                  ## @main
+	.cfi_startproc
+## BB#0:
+	pushq	%rbp
+Ltmp3:
+	.cfi_def_cfa_offset 16
+Ltmp4:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+Ltmp5:
+	.cfi_def_cfa_register %rbp
+	movl	$4, %edi
+	movl	$8, %esi
+	popq	%rbp
+	jmp	_sum                    ## TAILCALL
+	.cfi_endproc
+
+	.globl	_accum                  ## @accum
+.zerofill __DATA,__common,_accum,4,2
+
+.subsections_via_symbols
+
+
+code.o:
+(__TEXT,__text) section
+_sum:
+0000000000000000	pushq	%rbp
+0000000000000001	movq	%rsp, %rbp
+0000000000000004	addl	%esi, %edi
+0000000000000006	addl	%edi, _accum(%rip)
+000000000000000c	movl	%edi, %eax
+000000000000000e	popq	%rbp
+000000000000000f	retq
+_main:
+0000000000000010	pushq	%rbp
+0000000000000011	movq	%rsp, %rbp
+0000000000000014	movl	$0x4, %edi
+0000000000000019	movl	$0x8, %esi
+000000000000001e	popq	%rbp
+000000000000001f	jmp	_sum
+
+
+------------------------------------------------------------------------------------------
+Grep & Find Commands:
+
+~/Documents$ find cowgirl.txt:
+
+cowgirl.txt
+
+find -name crapfile.txt:
+
+./crapfile.txt
+
+
+grep 'waffles' crapfile.txt:
+
+waffles
+dc has waffles
+tokyo has waffles
+
+grep -R 'waffles':
+
+crapfile.txt:waffles
+crapfile.txt:dc has waffles
+crapfile.txt:tokyo has waffles
+cowgirl:waffles are awesome
+cowgirl:where are waffles from
+crapfile:grep 'waffles' crapfile.txt:
+crapfile:waffles
+crapfile:dc has waffles
+crapfile:tokyo has waffles
+LinuxAssignment:waffles 
+LinuxAssignment:waffles stink 
+LinuxAssignment:you stink of waffles
+
+------------------------------------------------------------------------------------------
+Shell Script:
+
+start http://www.facebook.com
+
+start http://www.twitter.com
+
+start http://www.footlocker.com
+
+start http://www.ebay.com
+
+start http://www.espn.com
+
+

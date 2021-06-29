@@ -1,0 +1,354 @@
+Received: from BLAPR07MB7665.namprd07.prod.outlook.com (2603:10b6:208:29d::8)
+ by DM6PR07MB6204.namprd07.prod.outlook.com with HTTPS; Mon, 30 Nov 2020
+ 22:03:38 +0000
+Authentication-Results: x8llc.com; dkim=none (message not signed)
+ header.d=none;x8llc.com; dmarc=none action=none header.from=x8llc.com;
+Received: from MN2PR07MB6751.namprd07.prod.outlook.com (2603:10b6:208:16c::28)
+ by BLAPR07MB7665.namprd07.prod.outlook.com (2603:10b6:208:29d::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3611.20; Mon, 30 Nov
+ 2020 22:03:35 +0000
+Received: from MN2PR07MB6751.namprd07.prod.outlook.com
+ ([fe80::f49d:2fe8:cff3:e723]) by MN2PR07MB6751.namprd07.prod.outlook.com
+ ([fe80::f49d:2fe8:cff3:e723%2]) with mapi id 15.20.3611.023; Mon, 30 Nov 2020
+ 22:03:35 +0000
+From: "Michael D. Sutton" <msutton@x8llc.com>
+To: "Shelia M. Baesch" <sbaesch@x8llc.com>
+CC: HR <hr@x8llc.com>, "Henry N. Osei" <hosei@x8llc.com>
+Subject: RE: Paul Fowler Termination Information
+Thread-Topic: Paul Fowler Termination Information
+Thread-Index: Ada3cRugkw423DHbTQ62jeqcRCU0ZgP80TMw
+Date: Mon, 30 Nov 2020 22:03:35 +0000
+Message-ID:
+ <MN2PR07MB675104EF721AC3EC30D8BBB7FCF50@MN2PR07MB6751.namprd07.prod.outlook.com>
+References:
+ <MN2PR07MB7183E7FD38824EAF1681CF46FBE90@MN2PR07MB7183.namprd07.prod.outlook.com>
+In-Reply-To:
+ <MN2PR07MB7183E7FD38824EAF1681CF46FBE90@MN2PR07MB7183.namprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+ <MN2PR07MB675104EF721AC3EC30D8BBB7FCF50@MN2PR07MB6751.namprd07.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: MN2PR07MB6751.namprd07.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [73.129.84.126]
+X-MS-Exchange-Organization-Network-Message-Id:
+ 8846b813-f689-4f16-0163-08d8957bc8f5
+X-MS-PublicTrafficType: Email
+Return-Path: msutton@x8llc.com
+X-MS-Exchange-Organization-ExpirationStartTime: 30 Nov 2020 22:03:35.9489
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 8846b813-f689-4f16-0163-08d8957bc8f5
+X-MS-TrafficTypeDiagnostic: BLAPR07MB7665:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Transport-Forked: True
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR07MB6751.namprd07.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-AntiSpam-MessageData:
+ =?us-ascii?Q?z37cL+K4nSni7RpJ/4X59QZBcI8Eg9LM8b+Vbzfr8z/nYpweL9jATCC21+J3?=
+ =?us-ascii?Q?Q8iBbOAmikfyKWm7pMoMwdEZ/AdNrLGqB58nf3kWyixc1qVbZRQ9ofJBaEHz?=
+ =?us-ascii?Q?Cr8aLYSeLiUvFL1dLcOAJ/7iKfNsk4hI9tvwZaYBov2ayVUdcLZBgJ6fE75J?=
+ =?us-ascii?Q?Fo4nh1bG0FsnjXlc+Rt5zqEvyr6oEu5TuXct4im9BwRqt576iuGXmvQ2d5YD?=
+ =?us-ascii?Q?Uhk7bZbIFOWOkreVXTKTJC6OpRFa6cgtbPwYh74CB95Ss7nSMgVfebe4NPih?=
+ =?us-ascii?Q?Lc0jd9LOricet7ygaDMaGwC9W7SjwRHPbHUQD6Y2d1gsEPC7+ITX0ES137No?=
+ =?us-ascii?Q?0mQeplco9cizZ2pSwpYOAYmxeTPWz9EOA6UjVeXw6WUhY5FJ9VC1b0tnu8Pi?=
+ =?us-ascii?Q?2e+RrxbLCf0r0bZNX6XfsMFJl72yTj7gAnEoMvLpSN+6KtlYkr2iAZ8fDwxR?=
+ =?us-ascii?Q?SLJqKNcoNS0CthnhX8soVLRkRpsyb8zfI58kjrI0AL74hap6YiGOU4kLC8hf?=
+ =?us-ascii?Q?fXgUCvyAr4M1hccQ/CDa2eEA6MAKPPT9DXwjDZGjHtg2copbY59uLkOJoSxm?=
+ =?us-ascii?Q?OruwaJMbq+0YTbiOvrk8fr/PIpwh69L55zQhs67yGPze7cKfGoZswJBcqrg5?=
+ =?us-ascii?Q?PHGyfjGj3kwp0ghhT14HWqUwt+HE0Vg831JYpCEh3YVr2CXqmGMkD49jGwCm?=
+ =?us-ascii?Q?O04sSnSNOr5+qglPJ8kVQhxMmdNGFyGlmKdA8S484mSU+egsk+IKFmL53No6?=
+ =?us-ascii?Q?W7EQJOH1B1IeZAWPs3mZoVVlEeSf9HB3qboTTtEZa6KbpjZ38fijeufj7bgF?=
+ =?us-ascii?Q?+tKVuKujD13+lNT73HeBfX6uv8oaM5jT/aE3o0/SR+wm3R4vJoBntGtPyEo+?=
+ =?us-ascii?Q?HASfeSnWAse442sWoJopn8o4DkaarsKp+BVQZOScvK7Evx00vGiCnQGEZFxE?=
+ =?us-ascii?Q?mB8EtcwYohcQ58r8M6ooWeY5F0PWrnwKZqY1ZqofIzI=3D?=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Nov 2020 22:03:35.6801
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 6e02d630-648a-4786-bee7-37007d451b03
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR07MB6751.namprd07.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8846b813-f689-4f16-0163-08d8957bc8f5
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: ULOaOf/xD7soPNUT+PE5Ag+o+nhF6WR0R0OCa5oMFICUqiQ3EpE1KnI3KdTEQ2NKeCf3Zs8QV3bA1G2Y8ngiRg==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR07MB7665
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3927388
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3611.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(750128)(520011016)(706158)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	AymUujIkoG/IEkGQ3BUpnD7zLe2Y3yNzYajzbg2cdiNZjYSS1HlTlOgGDUIxKKAZp9X3r0OaI40Ah7nkflhWilHdddcMhi+IdhS56CpAnsKGDbwJI8V8c4sAPrwcCBLLR4MtX5yX+hfyQNRDfQ0HnULKg6oi9p2MB3jiED/0ShiIhQyncIOGpUN9lpbY/+ngBje5dSuwUELT0GeqYLgHm+W4SaPvfQ3r8Ds4idpp1uwqdpqbodt+WOQUIbthlKDV76a+9+wIeg5XBkoMoi2MLgfiE3YAymQl54BYZjnaexsum+DLs2hXgaMT2nZCObvhxIjEyI/asaGVq6/y3v5xbIPIEGT7q6zMncCWiPB6Xd3SuC/LnBIWpmTY4pYOsnZyTAKOX2Kw0B8Hdeb4pVYjvFYMEDU2EhU9vm06lUVxOhk=
+Content-type: multipart/alternative;
+	boundary="B_3689600818_219867889"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3689600818_219867889
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+FYSA =E2=80=93=20
+
+=20
+
+Paul=E2=80=99s account has been disabled and all active sessions revoked from his=
+ devices. His email has been set to be forwarded to Dave Ortiz. Pending no i=
+ssues, we will delete his account on 15 JAN 2021.
+
+=20
+
+Any questions or issues, let us know.
+
+=20
+
+Regards.
+
+=20
+
+Michael D. Sutton
+
+Chief Information Security Officer
+
+X8 LLC
+
+1743 Dorsey Road, Suite 112
+
+Hanover, MD 21076
+
+Office:  888.836.4498  Ext: 110
+
+Fax: 443.333.4764=20
+
+DUNS: 967653648
+
+Cage Code:  6DM31
+
+www.x8llc.com=20
+
+=20
+
+Confidentiality Notice: This communication is intended for the sole use of =
+the individual to whom it is addressed and may contain information that is p=
+rivileged, confidential, and exempt from disclosure under applicable law. If=
+ the reader of this communication is not the intended recipient or the emplo=
+yee or agent responsible for delivering the communication to the intended re=
+cipient, you are hereby notified that any dissemination, distribution, or co=
+pying of this communication is strictly prohibited. If you have received thi=
+s communication in error, please notify the sender immediately and delete al=
+l copies from your and your organization's system.
+
+=20
+
+From: Shelia M. Baesch <sbaesch@x8llc.com>=20
+Sent: Tuesday, November 10, 2020 2:12 PM
+To: Michael D. Sutton <msutton@x8llc.com>
+Cc: HR <hr@x8llc.com>
+Subject: Paul Fowler Termination Information
+
+=20
+
+Mike
+
+=20
+
+November 30th will be Paul Fowler=E2=80=99s last day of employment with X8.  =20
+
+Please enable his X8 email/accounts COB on the 30th.=20
+
+Please have all his future emails forwarded to:  David Ortiz
+
+=20
+
+I will ensure all IT property has been returned accordingly. =20
+
+=20
+
+The customer and customer=E2=80=99s security have been notified of his departure.
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+Shelia M. Baesch
+
+Chief Administrative Officer (CAO)
+
+X8=C2=AE  Full Spectrum Engagement=C2=AE
+
+1743 Dorsey Road, Suite 112
+
+Hanover, MD 21076
+
+Mobile:  410-491-1306
+
+Office:  888-836-4498  Ext: 103=20
+
+Fax: 443-333-4764=20
+
+DUNS:  967653648
+
+Cage Code:  6DM31
+
+=20
+
+Confidentiality Notice: This communication is intended for the sole use of =
+the individual to whom it is addressed and may contain information that is p=
+rivileged, confidential, and exempt from disclosure under applicable law. If=
+ the reader of this communication is not the intended recipient or the emplo=
+yee or agent responsible for delivering the communication to the intended re=
+cipient, you are hereby notified that any dissemination, distribution, or co=
+pying of this communication is strictly prohibited. If you have received thi=
+s communication in error, please notify the sender immediately and delete al=
+l copies from your and your organization's system.
+
+=20
+
+
+--B_3689600818_219867889
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsof=
+t-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" xmlns:m=
+=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org=
+/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta na=
+me=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-US" link=3D"#0563C1" =
+vlink=3D"#954F72" style=3D"word-wrap:break-word"><div class=3D"WordSection1"><p cl=
+ass=3D"MsoNormal">FYSA =E2=80=93 <o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:=
+p></p><p class=3D"MsoNormal">Paul=E2=80=99s account has been disabled and all active=
+ sessions revoked from his devices. His email has been set to be forwarded t=
+o Dave Ortiz. Pending no issues, we will delete his account on 15 JAN 2021.<=
+o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"=
+>Any questions or issues, let us know.<o:p></o:p></p><p class=3D"MsoNormal"><o=
+:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Regards.<o:p></o:p></p><p class=3D"Mso=
+Normal"><o:p>&nbsp;</o:p></p><div><p class=3D"MsoNormal"><b>Michael D. Sutton<=
+o:p></o:p></b></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Chief =
+Information Security Officer<o:p></o:p></span></p><p class=3D"MsoNormal"><span=
+ style=3D"font-size:10.0pt">X8 LLC<o:p></o:p></span></p><p class=3D"MsoNormal"><=
+span style=3D"font-size:10.0pt">1743 Dorsey Road, Suite 112<o:p></o:p></span><=
+/p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Hanover, MD 21076<o:p=
+></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Office=
+:&nbsp; 888.836.4498&nbsp; Ext: 110<o:p></o:p></span></p><p class=3D"MsoNormal=
+"><span style=3D"font-size:10.0pt">Fax: 443.333.4764 <o:p></o:p></span></p><p =
+class=3D"MsoNormal"><span style=3D"font-size:10.0pt">DUNS: 967653648<o:p></o:p><=
+/span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Cage Code:&nbs=
+p; 6DM31<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:9.=
+0pt">www.x8llc.com <o:p></o:p></span></p><p class=3D"MsoNormal"><o:p>&nbsp;</o=
+:p></p><p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt">Confidentiality=
+ Notice:</span></b><span style=3D"font-size:9.0pt"> This communication is inte=
+nded for the sole use of the individual to whom it is addressed and may cont=
+ain information that is privileged, confidential, and exempt from disclosure=
+ under applicable law. If the reader of this communication is not the intend=
+ed recipient or the employee or agent responsible for delivering the communi=
+cation to the intended recipient, you are hereby notified that any dissemina=
+tion, distribution, or copying of this communication is strictly prohibited.=
+ If you have received this communication in error, please notify the sender =
+immediately and delete all copies from your and your organization's system.<=
+o:p></o:p></span></p></div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><div><d=
+iv style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0=
+in"><p class=3D"MsoNormal"><b>From:</b> Shelia M. Baesch &lt;sbaesch@x8llc.com=
+&gt; <br><b>Sent:</b> Tuesday, November 10, 2020 2:12 PM<br><b>To:</b> Micha=
+el D. Sutton &lt;msutton@x8llc.com&gt;<br><b>Cc:</b> HR &lt;hr@x8llc.com&gt;=
+<br><b>Subject:</b> Paul Fowler Termination Information<o:p></o:p></p></div>=
+</div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Mike<o:=
+p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">N=
+ovember 30<sup>th</sup> will be Paul Fowler=E2=80=99s last day of employment with =
+X8.&nbsp; &nbsp;<o:p></o:p></p><p class=3D"MsoNormal">Please enable his X8 ema=
+il/accounts COB on the 30<sup>th</sup>. <o:p></o:p></p><p class=3D"MsoNormal">=
+Please have all his future emails forwarded to:&nbsp; David Ortiz<o:p></o:p>=
+</p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">I will en=
+sure all IT property has been returned accordingly.&nbsp; <o:p></o:p></p><p =
+class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">The customer and=
+ customer=E2=80=99s security have been notified of his departure.<o:p></o:p></p><p=
+ class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:=
+p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p>&n=
+bsp;</o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"=
+ style=3D"background:white"><i><span style=3D"color:#201F1E">Shelia M. Baesch</s=
+pan></i><span style=3D"color:#201F1E"><o:p></o:p></span></p><p class=3D"MsoNorma=
+l" style=3D"background:white"><i><span style=3D"color:#201F1E">Chief Administrat=
+ive Officer (CAO)</span></i><span style=3D"color:#201F1E"><o:p></o:p></span></=
+p><p class=3D"MsoNormal" style=3D"background:white"><b><span style=3D"font-size:12=
+.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0070C0;background:white=
+">X8</span></b><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;colo=
+r:#0070C0;background:white">=C2=AE</span></b><b><span style=3D"font-size:12.0pt;fo=
+nt-family:&quot;Arial&quot;,sans-serif;color:#0070C0;background:white">&nbsp=
+;</span></b><i><span style=3D"color:#0070C0">&nbsp;</span><span style=3D"color:b=
+lack">Full Spectrum Engagement=C2=AE</span></i><span style=3D"color:#201F1E"><o:p>=
+</o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"=
+color:black">1743 Dorsey Road,&nbsp;Suite 112<o:p></o:p></span></p><p class=3D=
+"MsoNormal" style=3D"background:white"><span style=3D"color:black">Hanover, MD 2=
+1076</span><span style=3D"color:#201F1E"><o:p></o:p></span></p><p class=3D"MsoNo=
+rmal" style=3D"background:white"><span style=3D"color:black">Mobile:&nbsp; 410-4=
+91-1306</span><span style=3D"color:#201F1E"><o:p></o:p></span></p><p class=3D"Ms=
+oNormal" style=3D"background:white"><span style=3D"color:black">Office: &nbsp;88=
+8-836-4498 &nbsp;Ext: 103&nbsp;</span><span style=3D"color:#201F1E"><o:p></o:p=
+></span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"color=
+:black">Fax: 443-333-4764&nbsp;</span><span style=3D"color:#201F1E"><o:p></o:p=
+></span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"color=
+:black">DUNS:&nbsp; 967653648</span><span style=3D"color:#201F1E"><o:p></o:p><=
+/span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"color:b=
+lack">Cage Code:&nbsp; 6DM31</span><span style=3D"color:#201F1E"><o:p></o:p></=
+span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-siz=
+e:10.0pt;color:black">&nbsp;</span><span style=3D"color:#201F1E"><o:p></o:p></=
+span></p><p class=3D"MsoNormal" style=3D"background:white"><b><span style=3D"font-=
+size:9.0pt;color:#222222">Confidentiality Notice:</span></b><span style=3D"fon=
+t-size:9.0pt;color:#222222">&nbsp;This communication is intended for the sol=
+e use of the individual to whom it is addressed and may contain information =
+that is privileged, confidential, and exempt from disclosure under applicabl=
+e law. If the reader of this communication is not the intended recipient or =
+the employee or agent responsible for delivering the communication to the in=
+tended recipient, you are hereby notified that any dissemination, distributi=
+on, or copying of this communication is strictly prohibited. If you have rec=
+eived this communication in error, please notify the sender immediately and =
+delete all copies from your and your organization's system.</span><span styl=
+e=3D"color:#201F1E"><o:p></o:p></span></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:=
+p></p></div></body></html>
+
+--B_3689600818_219867889--
+

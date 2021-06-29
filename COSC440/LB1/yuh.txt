@@ -1,0 +1,496 @@
+﻿dod@ossecadmin:~$ cd /home/fisher
+dod@ossecadmin:/home/fisher$ ls -a
+.              Desktop           .john     .sqlite_history
+..             .dmrc             .local    .ssh
+.bash_history  Documents         .mozilla  Templates
+.bash_logout   Downloads         Music     Videos
+.bashrc        examples.desktop  .nano     .Xauthority
+.cache         .gconf            Pictures  .xsession-errors
+.compiz        .gnupg            .profile  .xsession-errors.old
+.config        .ICEauthority     Public
+dod@ossecadmin:/home/fisher$ ./bash_history
+bash: ./bash_history: No such file or directory
+dod@ossecadmin:/home/fisher$ ./ bash_history
+bash: ./: Is a directory
+dod@ossecadmin:/home/fisher$ cd / .bash_history
+dod@ossecadmin:/$ ls -al
+total 112
+drwxr-xr-x  25 root root  4096 Sep 25  2017 .
+drwxr-xr-x  25 root root  4096 Sep 25  2017 ..
+drwxr-xr-x   2 root root  4096 Sep 17  2017 bin
+drwxr-xr-x   3 root root  4096 Sep  5 16:56 boot
+drwxrwxr-x   2 root root  4096 Aug 24  2017 cdrom
+drwxr-xr-x  18 root root  3980 Sep 12 16:50 dev
+drwxr-xr-x 136 root root 12288 Sep  5 16:56 etc
+drwxr-xr-x  10 root root  4096 Aug 24  2017 home
+lrwxrwxrwx   1 root root    33 Sep 25  2017 initrd.img -> boot/initrd.img-4.10.0-35-generic
+lrwxrwxrwx   1 root root    33 Aug 28  2017 initrd.img.old -> boot/initrd.img-4.10.0-33-generic
+drwxr-xr-x  22 root root  4096 Aug 24  2017 lib
+drwxr-xr-x   2 root root  4096 Aug 28  2017 lib64
+drwx------   2 root root 16384 Aug 24  2017 lost+found
+drwxr-xr-x   5 root root  4096 Sep  5 17:11 media
+drwxr-xr-x   3 root root  4096 Sep  7  2017 mnt
+drwxr-xr-x   2 root root  4096 Feb 15  2017 opt
+dr-xr-xr-x 243 root root     0 Sep 12 16:50 proc
+drwxr-xr-x   2 root root  4096 Sep 11  2017 public
+drwx------   8 root root  4096 Aug 20  2018 root
+drwxr-xr-x  27 root root   860 Sep 12 16:55 run
+drwxr-xr-x   2 root root 12288 Sep  5 16:56 sbin
+drwxr-xr-x   4 root root  4096 Aug 20  2018 snap
+drwxr-xr-x   2 root root  4096 Feb 15  2017 srv
+dr-xr-xr-x  13 root root     0 Sep 12 17:10 sys
+drwxrwxrwt  15 root root  4096 Sep 12 17:17 tmp
+drwxr-xr-x  12 root root  4096 Aug 24  2017 usr
+drwxr-xr-x  14 root root  4096 Feb 15  2017 var
+lrwxrwxrwx   1 root root    30 Sep 25  2017 vmlinuz -> boot/vmlinuz-4.10.0-35-generic
+lrwxrwxrwx   1 root root    30 Aug 28  2017 vmlinuz.old -> boot/vmlinuz-4.10.0-33-generic
+dod@ossecadmin:/$ cd
+dod@ossecadmin:~$ cd /home/fisher
+dod@ossecadmin:/home/fisher$ ls -a
+.              Desktop           .john     .sqlite_history
+..             .dmrc             .local    .ssh
+.bash_history  Documents         .mozilla  Templates
+.bash_logout   Downloads         Music     Videos
+.bashrc        examples.desktop  .nano     .Xauthority
+.cache         .gconf            Pictures  .xsession-errors
+.compiz        .gnupg            .profile  .xsession-errors.old
+.config        .ICEauthority     Public
+dod@ossecadmin:/home/fisher$ ./ .sqlite_history
+bash: ./: Is a directory
+dod@ossecadmin:/home/fisher$ cd /.sqlite_history
+bash: cd: /.sqlite_history: No such file or directory
+dod@ossecadmin:/home/fisher$ cd / .sqlite_history
+dod@ossecadmin:/$ ls
+bin    dev   initrd.img      lib64       mnt   public  sbin  sys  var
+boot   etc   initrd.img.old  lost+found  opt   root    snap  tmp  vmlinuz
+cdrom  home  lib             media       proc  run     srv   usr  vmlinuz.old
+dod@ossecadmin:/$ tmp
+No command 'tmp' found, did you mean:
+ Command 'top' from package 'procps' (main)
+ Command 'xmp' from package 'xmp' (universe)
+ Command 'tm' from package 'libtm-perl' (universe)
+ Command 'tap' from package 'node-tap' (universe)
+ Command 'tip' from package 'golang-golang-x-tools' (universe)
+ Command 't2p' from package 'flite' (universe)
+ Command 'tlp' from package 'tlp' (universe)
+ Command 'tmap' from package 'emboss' (universe)
+ Command 'cmp' from package 'diffutils' (main)
+ Command 'tpp' from package 'tpp' (universe)
+ Command 'tsp' from package 'task-spooler' (universe)
+ Command 'bmp' from package 'ztex-bmp' (universe)
+ Command 'mtp' from package 'ferret-vis' (universe)
+tmp: command not found
+dod@ossecadmin:/$ ./ tmp
+bash: ./: Is a directory
+dod@ossecadmin:/$ ./tmp
+bash: ./tmp: Is a directory
+dod@ossecadmin:/$ tmp
+No command 'tmp' found, did you mean:
+ Command 'tmap' from package 'emboss' (universe)
+ Command 'tpp' from package 'tpp' (universe)
+ Command 't2p' from package 'flite' (universe)
+ Command 'tip' from package 'golang-golang-x-tools' (universe)
+ Command 'bmp' from package 'ztex-bmp' (universe)
+ Command 'tlp' from package 'tlp' (universe)
+ Command 'xmp' from package 'xmp' (universe)
+ Command 'tap' from package 'node-tap' (universe)
+ Command 'tm' from package 'libtm-perl' (universe)
+ Command 'mtp' from package 'ferret-vis' (universe)
+ Command 'top' from package 'procps' (main)
+ Command 'cmp' from package 'diffutils' (main)
+ Command 'tsp' from package 'task-spooler' (universe)
+tmp: command not found
+dod@ossecadmin:/$ ls
+bin    dev   initrd.img      lib64       mnt   public  sbin  sys  var
+boot   etc   initrd.img.old  lost+found  opt   root    snap  tmp  vmlinuz
+cdrom  home  lib             media       proc  run     srv   usr  vmlinuz.old
+dod@ossecadmin:/$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+ossecadmin:x:1000:1000:OSSecAdmin,,,:/home/ossecadmin:/bin/bash
+john:x:1002:1002::/home/john:
+abe:x:1003:1002::/home/abe:
+fisher:x:1004:1003::/home/fisher:
+dod:x:1005:1003::/home/dod:
+xyz:x:1009:1004::/usr/xyz:
+kitty:x:1012:1003::/home/kitty:
+mary:x:1013:1002::/home/mary:
+muser:x:1014:1004::/home/muser:
+sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+dod@ossecadmin:/$ cd /home/fisher
+dod@ossecadmin:/home/fisher$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,
+                               '--block-size=M' prints sizes in units of
+                               1,048,576 bytes; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and/or -s, print human readable sizes
+                               (e.g., 1K 234M 2G)
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print raw entry names (don't treat e.g. control
+                               characters specially)
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=STYLE     with -l, show times using style STYLE:
+                               full-iso, long-iso, iso, locale, or +FORMAT;
+                               FORMAT is interpreted like in 'date'; if FORMAT
+                               is FORMAT1<newline>FORMAT2, then FORMAT1 applies
+                               to non-recent files and FORMAT2 to recent files;
+                               if STYLE is prefixed with 'posix-', STYLE
+                               takes effect only outside the POSIX locale
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+dod@ossecadmin:/home/fisher$ ls -a
+.              Desktop           .john     .sqlite_history
+..             .dmrc             .local    .ssh
+.bash_history  Documents         .mozilla  Templates
+.bash_logout   Downloads         Music     Videos
+.bashrc        examples.desktop  .nano     .Xauthority
+.cache         .gconf            Pictures  .xsession-errors
+.compiz        .gnupg            .profile  .xsession-errors.old
+.config        .ICEauthority     Public
+dod@ossecadmin:/home/fisher$ cd
+dod@ossecadmin:~$ cd
+dod@ossecadmin:~$ cd ..
+dod@ossecadmin:/home$ ls -a
+.  ..  abe  dod  fisher  john  kitty  mary  muser  ossecadmin
+dod@ossecadmin:/home$ cd ..
+dod@ossecadmin:/$ ls
+bin    dev   initrd.img      lib64       mnt   public  sbin  sys  var
+boot   etc   initrd.img.old  lost+found  opt   root    snap  tmp  vmlinuz
+cdrom  home  lib             media       proc  run     srv   usr  vmlinuz.old
+dod@ossecadmin:/$ cd etc
+dod@ossecadmin:/etc$ ls
+acpi                           hosts.allow              profile.d
+adduser.conf                   hosts.deny               protocols
+alternatives                   hp                       pulse
+anacrontab                     ifplugd                  python
+apg.conf                       iftab                    python2.7
+apm                            ImageMagick-6            python3
+apparmor                       init                     python3.5
+apparmor.d                     init.d                   rc0.d
+apport                         initramfs-tools          rc1.d
+appstream.conf                 inputrc                  rc2.d
+apt                            insserv                  rc3.d
+aptdaemon                      insserv.conf             rc4.d
+at-spi2                        insserv.conf.d           rc5.d
+avahi                          iproute2                 rc6.d
+bash.bashrc                    issue                    rc.local
+bash_completion                issue.net                rcS.d
+bash_completion.d              john                     resolvconf
+bindresvport.blacklist         kbd                      resolv.conf
+binfmt.d                       kernel                   rmt
+bluetooth                      kernel-img.conf          rpc
+brlapi.key                     kerneloops.conf          rsyslog.conf
+brltty                         ldap                     rsyslog.d
+brltty.conf                    ld.so.cache              sane.d
+ca-certificates                ld.so.conf               securetty
+ca-certificates.conf           ld.so.conf.d             security
+ca-certificates.conf.dpkg-old  legal                    selinux
+calendar                       libao.conf               sensors3.conf
+chatscripts                    libaudit.conf            sensors.d
+compizconfig                   libnl-3                  services
+console-setup                  libpaper.d               sgml
+cracklib                       libreoffice              shadow
+cron.d                         lightdm                  shadow-
+cron.daily                     lintianrc                shells
+cron.hourly                    locale.alias             signond.conf
+cron.monthly                   locale.gen               signon-ui
+crontab                        localtime                skel
+cron.weekly                    logcheck                 speech-dispatcher
+cups                           login.defs               ssh
+cupshelpers                    logrotate.conf           ssl
+dbus-1                         logrotate.d              subgid
+dconf                          lsb-release              subgid-
+debconf.conf                   ltrace.conf              subuid
+debian_version                 machine-id               subuid-
+default                        magic                    sudoers
+deluser.conf                   magic.mime               sudoers.d
+depmod.d                       mailcap                  sysctl.conf
+dhcp                           mailcap.order            sysctl.d
+dictionaries-common            manpath.config           systemd
+dnsmasq.d                      mime.types               terminfo
+doc-base                       mke2fs.conf              thermald
+dpkg                           modprobe.d               thunderbird
+drirc                          modules                  timezone
+emacs                          modules-load.d           timidity
+environment                    mtab                     tmpfiles.d
+firefox                        mtools.conf              ucf.conf
+fonts                          nanorc                   udev
+fstab                          network                  udisks2
+fuse.conf                      NetworkManager           ufw
+fwupd.conf                     networks                 updatedb.conf
+gai.conf                       newt                     update-manager
+gconf                          nsswitch.conf            update-motd.d
+gdb                            openal                   update-notifier
+ghostscript                    opt                      UPower
+gnome                          os-release               upstart-xsessions
+gnome-app-install              pam.conf                 usb_modeswitch.conf
+groff                          pam.d                    usb_modeswitch.d
+group                          papersize                vdpau_wrapper.cfg
+group-                         passwd                   vim
+grub.d                         passwd-                  vmware-caf
+gshadow                        pcmcia                   vmware-tools
+gshadow-                       perl                     vtrgb
+gss                            pki                      wgetrc
+gtk-2.0                        pm                       wildmidi
+gtk-3.0                        pnm2ppa.conf             wpa_supplicant
+guest-session                  polkit-1                 X11
+hdparm.conf                    popularity-contest.conf  xdg
+host.conf                      ppp                      xml
+hostname                       printcap                 zsh_command_not_found
+hosts                          profile
+dod@ossecadmin:/etc$ cd passwd
+bash: cd: passwd: Not a directory
+dod@ossecadmin:/etc$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+ossecadmin:x:1000:1000:OSSecAdmin,,,:/home/ossecadmin:/bin/bash
+john:x:1002:1002::/home/john:
+abe:x:1003:1002::/home/abe:
+fisher:x:1004:1003::/home/fisher:
+dod:x:1005:1003::/home/dod:
+xyz:x:1009:1004::/usr/xyz:
+kitty:x:1012:1003::/home/kitty:
+mary:x:1013:1002::/home/mary:
+muser:x:1014:1004::/home/muser:
+sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+dod@ossecadmin:/etc$ cd
+dod@ossecadmin:~$ cd ..
+dod@ossecadmin:/home$ ls -l
+total 32
+drwx------  2 abe        Group1     4096 Aug 24  2017 abe
+drwxr-x--- 19 dod        Exec       4096 Sep 12 17:40 dod
+drwxr-x--- 20 fisher     Exec       4096 Aug 26 14:17 fisher
+drwx------  2 john       Group1     4096 Aug 24  2017 john
+drwxr-x---  2 kitty      Exec       4096 Aug 24  2017 kitty
+drwx------ 15 mary       Group1     4096 Aug 24  2017 mary
+drwx------ 21 muser      Personnel  4096 Sep  2 13:38 muser
+drwx------ 23 ossecadmin ossecadmin 4096 Aug 26 14:38 ossecadmin
+dod@ossecadmin:/home$ cd /home/fisher
+dod@ossecadmin:/home/fisher$ ls -la
+total 132
+drwxr-x--- 20 fisher Exec 4096 Aug 26 14:17 .
+drwxr-xr-x 10 root   root 4096 Aug 24  2017 ..
+-rw-------  1 fisher Exec  615 Aug 26 14:17 .bash_history
+-rwxr-x---  1 fisher Exec  220 Aug 31  2015 .bash_logout
+-rwxr-x---  1 fisher Exec 3786 Aug 26 14:17 .bashrc
+drwxr-x--- 14 fisher Exec 4096 Aug 20  2018 .cache
+drwxr-x---  3 fisher Exec 4096 Aug 24  2017 .compiz
+drwxr-x--- 15 fisher Exec 4096 Aug 20  2018 .config
+drwxr-x---  2 fisher Exec 4096 Aug 20  2018 Desktop
+-rwxr-x---  1 fisher Exec   25 Aug 24  2017 .dmrc
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Documents
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Downloads
+-rwxr-x---  1 fisher Exec 8980 Apr 20  2016 examples.desktop
+drwxr-x---  2 fisher Exec 4096 Aug 26 14:18 .gconf
+drwxr-x---  3 fisher Exec 4096 Aug 26 16:14 .gnupg
+-rwxr-x---  1 fisher Exec 3690 Aug 26 14:17 .ICEauthority
+drwx------  2 fisher Exec 4096 Sep 11  2017 .john
+drwxr-x---  3 fisher Exec 4096 Aug 24  2017 .local
+drwxr-x---  4 fisher Exec 4096 Aug 24  2017 .mozilla
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Music
+drwxr-xr-x  2 fisher Exec 4096 Sep 10  2017 .nano
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Pictures
+-rwxr-x---  1 fisher Exec  655 Jun 24  2016 .profile
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Public
+-rwxr-x---  1 fisher Exec    8 Aug 24  2017 .sqlite_history
+drwxr-x---  2 fisher Exec 4096 Aug 20  2018 .ssh
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Templates
+drwxr-x---  2 fisher Exec 4096 Aug 24  2017 Videos
+-rwxr-x---  1 fisher Exec  165 Aug 26 14:17 .Xauthority
+-rw-------  1 fisher Exec 1626 Aug 26 16:14 .xsession-errors
+-rw-------  1 fisher Exec  681 Aug 26 14:17 .xsession-errors.old
+dod@ossecadmin:/home/fisher$ cd .mozilla
+dod@ossecadmin:/home/fisher/.mozilla$ ls
+extensions  firefox
+dod@ossecadmin:/home/fisher/.mozilla$ cd firefox
+dod@ossecadmin:/home/fisher/.mozilla/firefox$ ls
+Crash Reports  profiles.ini  y5pb38zc.default
+dod@ossecadmin:/home/fisher/.mozilla/firefox$ y5pb38zc.default/
+bash: y5pb38zc.default/: Is a directory
+dod@ossecadmin:/home/fisher/.mozilla/firefox$ cd y5pb38zc.default/
+dod@ossecadmin:/home/fisher/.mozilla/firefox/y5pb38zc.default$ ls
+addons.json            extensions.json        secmod.db
+AlternateServices.txt  gmp                    sessionCheckpoints.json
+blocklist.xml          gmp-gmpopenh264        sessionstore-backups
+bookmarkbackups        key3.db                sessionstore.js
+cert8.db               mimeTypes.rdf          SiteSecurityServiceState.txt
+compatibility.ini      minidumps              storage
+containers.json        permissions.sqlite     storage.sqlite
+content-prefs.sqlite   places.sqlite          times.json
+cookies.sqlite         pluginreg.dat          webappsstore.sqlite
+crashes                prefs.js               xulstore.json
+datareporting          saved-telemetry-pings
+extensions.ini         search.json.mozlz4
+dod@ossecadmin:/home/fisher/.mozilla/firefox/y5pb38zc.default$ ^C
+dod@ossecadmin:/home/fisher/.mozilla/firefox/y5pb38zc.default$ do

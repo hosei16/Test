@@ -1,0 +1,15 @@
+import java.util.*;
+public class Program{
+  public static void main (String [] args){
+    
+    int x, y;
+Scanner input = new Scanner(System.in);
+char again;
+do {
+System.out.print("Enter 2 integers ");
+x = input.nextInt();
+y = input.nextInt();
+System.out.println("The sum = " + x + y); 
+System.out.println("Do you want to continue? (Y/N):");
+       again = input.next.charAt(0); // next read
+   } while(again == 'Y' && again = ='y')

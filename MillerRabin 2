@@ -1,0 +1,32 @@
+
+def is_prime(p, k=20):
+    phi = p - 1
+    d = p-1
+    r = 0
+
+    while d%2==0:
+        d/=2
+        r += 1
+
+
+    for i in range(k):
+        a = 3
+        exp = pow(a,d, phi)
+
+
+        if exp==1 or exp == p - 1:
+            continue
+
+
+        for j in range (r):
+            exp = pow(exp,2, phi)
+
+            if exp == 1:
+                return False
+
+            if exp == p - 1:
+                break
+        else:
+            return False
+
+print(is_prime())

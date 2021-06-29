@@ -1,0 +1,1190 @@
+﻿body {
+    background: #fff url(/images/background.jpg) repeat-x;
+    background-position: top;
+    text-align: center;
+    color: #333;
+    font-family: Arial, Calibri, Sans-Serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+a {
+    color: #003399;
+}
+
+img {
+    border: none;
+}
+
+hr {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #DDD;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #F6F6F6;
+    font-weight: bold;
+    border-right: solid 2px #FFF;
+    border-top: solid 1px #FFF;
+    padding: 1px;
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+    font-size: 1px;
+}
+
+.clearpad {
+    clear: both;
+    font-size: 1px;
+    height: 6px;
+}
+
+.container {
+    text-align: left;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #ebe9e9;
+}
+
+.logo {
+    float: left;
+    margin: 14px 16px;
+}
+
+.header ul {
+    margin: 10px 12px;
+    padding: 0px;
+    text-align: right;
+    float: right;
+}
+
+    .header ul li {
+        list-style-type: none;
+        display: inline;
+        border-left: 1px solid #666;
+        padding-left: 8px;
+        margin-left: 4px;
+        color: #333;
+    }
+
+        .header ul li.first {
+            border-left: none;
+            padding-left: 0px;
+            margin-left: 0px;
+            font-style: italic;
+        }
+
+        .header ul li.on {
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        .header ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+            .header ul li a:hover {
+                text-decoration: underline;
+            }
+
+.menu {
+    background-color: #0066cc;
+    width: 100%;
+}
+
+    .menu .name {
+        float: left;
+        font-style: italic;
+        color: #fff;
+        font-weight: bold;
+        margin: 5px 0px 0px 8px;
+    }
+
+    .menu ul {
+        margin: 5px 0px;
+        padding: 0px;
+        text-align: right;
+        float: right;
+    }
+
+        .menu ul li {
+            list-style-type: none;
+            display: inline;
+            border-left: 3px solid #fff;
+            padding: 5px 22px 5px 24px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: -2px;
+        }
+
+            .menu ul li.on {
+                background-color: #003366;
+            }
+
+            .menu ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+                .menu ul li a:hover {
+                    text-decoration: underline;
+                }
+
+.content {
+    padding: 14px 20px;
+}
+
+.breadcrumbs {
+    margin: -4px 0px 6px 0px;
+}
+
+h1 {
+    margin: 0px 0px 6px 0px;
+    font-weight: normal;
+    font-size: 22px;
+    float: left;
+}
+
+h2 {
+    margin: 0px 0px 6px 0px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #0066cc;
+}
+
+h3 {
+    margin: 0px 0px 6px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.onehalf {
+    width: 49%;
+}
+
+.full {
+    width: 95%;
+}
+
+.onethird {
+    width: 32%;
+}
+
+.twothirds {
+    width: 65%;
+}
+
+.onefourth {
+    width: 24%;
+}
+
+.threefourths {
+    width: 74%;
+}
+
+.callout {
+    margin: 10px 0px 18px 0px;
+}
+
+    .callout .heading {
+        background: #fff url(/images/bar_left.gif) no-repeat;
+        background-position: left;
+        position: relative;
+    }
+
+        .callout .heading img {
+            position: absolute;
+            top: -8px;
+            left: 10px;
+            z-index: 2;
+        }
+
+        .callout .heading h2 {
+            background-image: url(/images/bar_right.gif);
+            background-repeat: no-repeat;
+            background-position: right;
+            font-size: 18px;
+            font-weight: normal;
+            color: #000;
+            margin: 0px 0px 0px 64px;
+            padding: 10px 0px 10px 0px;
+        }
+
+    .callout .body {
+        padding: 8px 10px 0px 12px;
+    }
+
+        .callout .body .indent {
+            margin-left: 20px;
+        }
+
+        .callout .body ul li {
+            margin-bottom: 4px;
+        }
+
+        .callout .body ol li {
+            margin-bottom: 4px;
+        }
+
+    .callout .foot {
+        background: #fff url(/images/bar_bottom_left.gif) no-repeat;
+        background-position: bottom left;
+        margin-top: 0px;
+    }
+
+        .callout .foot h2 {
+            background-image: url(/images/bar_bottom_right.gif);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            font-size: 18px;
+            font-weight: normal;
+            color: #000;
+            margin: 0px;
+            padding: 10px 0px 5px 0px;
+        }
+
+.calloutbackground {
+    margin: 0px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.important {
+    background-color: #fae6e6;
+    border-color: #cc0000;
+}
+
+.label {
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: right;
+}
+
+.newform {
+    float: right;
+    width: 150px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.formbutton {
+    float: right;
+    width: 150px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-left: 3px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.action {
+    float: right;
+    width: 400px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+    .action a {
+        color: #333;
+        text-decoration: underline;
+        padding: 6px 0px 6px 34px;
+        background: #fff url(/images/icons/32/add.png) no-repeat;
+        background-position: left;
+    }
+
+        .action a:hover {
+            color: Black;
+        }
+
+    .action .add {
+        background-image: url(/images/icons/32/add.png);
+    }
+
+.actionaddnew {
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.action .openfolder {
+    background-image: url(/images/icons/32/open-folder.png);
+}
+
+.action .caseedit {
+    background-image: url(/images/icons/32/case_edit.png);
+}
+
+.action .edit {
+    background-image: url(/images/icons/32/edit.png);
+}
+
+.action .upload {
+    background-image: url(/images/icons/32/upload.png);
+}
+
+.action .download {
+    background-image: url(/images/icons/32/download.png);
+}
+
+.action .back {
+    background-image: url(/images/icons/32/back.png);
+    padding: 6px 0px 6px 38px;
+}
+
+.action .forward {
+    background-image: url(/images/icons/32/forward.png);
+    padding: 6px 38px 6px 0px;
+    background-position: right;
+}
+
+.action .export {
+    background-image: url(/images/icons/32/export.png);
+    padding: 6px 0px 6px 38px;
+}
+
+.action .help {
+    background-image: url(/images/icons/32/info.png);
+    padding: 6px 0px 6px 38px;
+}
+
+audit_history {
+    text-align: center;
+    border-left: 5px;
+    border-right: 5px;
+}
+
+
+/* Round Buttons */
+.rounded_STYLE {
+    background-color: #009900; /* if needed */
+    border: 1px solid #006400; /* if needed */
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    -webkit-border-radius: 15px; /* for Safari */
+    -moz-border-radius: 15px; /* for Firefox */
+}
+
+    .rounded_STYLE > .tl, .rounded_STYLE > .tr, .rounded_STYLE > .bl, .rounded_STYLE > .br {
+        width: 5px;
+        height: 5px;
+        position: absolute;
+    }
+
+    .rounded_STYLE > .tl {
+        background: url(/images/ui/rounded/STYLE-tl.png) top left no-repeat;
+        top: -1;
+        left: -1;
+    }
+
+    .rounded_STYLE > .tr {
+        background: url(/images/ui/rounded/STYLE-tr.png) top right no-repeat;
+        top: -1;
+        right: -1;
+    }
+
+    .rounded_STYLE > .bl {
+        background: url(/images/ui/rounded/STYLE-bl.png) bottom left no-repeat;
+        bottom: -1;
+        left: -1;
+    }
+
+    .rounded_STYLE > .br {
+        background: url(/images/ui/rounded/STYLE-br.png) bottom right no-repeat;
+        bottom: -1;
+        right: -1;
+    }
+
+
+/* Button */
+a.btn {
+    border: #BBB 1px solid;
+    color: #5f5e5e;
+    display: block;
+    float: left;
+    padding: 12px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a:hover.btn {
+    text-decoration: none;
+    background: #FFF;
+}
+
+/* Rounded Corners */
+.rounded, a.btn {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+
+/* Drop Shadow */
+.shadow, a.btn {
+    -moz-box-shadow: 0px 1px 3px #AAA;
+    -webkit-box-shadow: 0px 1px 3px #AAA;
+    box-shadow: 0px 1px 3px #AAA;
+}
+
+/* Default Grey Gradient */
+.gradient, a.btn {
+    background: #FFF; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#DDD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,&nbsp;
+    #FFF,&nbsp;
+    #DDD); /* for firefox 3.6+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grid */
+
+.resultsgrid {
+    width: 100%;
+    border: 1px solid #a0a0a0;
+    border-collapse: collapse;
+}
+
+    .resultsgrid tr th {
+        background: #fff url(/images/bar_left.gif) no-repeat;
+        background-position: -6px;
+        border: 1px solid #a0a0a0;
+        padding: 4px;
+    }
+
+    .resultsgrid tr td {
+        border: 1px solid #d0d0d0;
+        padding: 4px;
+    }
+
+    .resultsgrid tr.alternate {
+        background-color: #f0f0f0;
+    }
+
+    .resultsgrid tr.highlight {
+        background-color: #666;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .resultsgrid tr td.noborder {
+        border-color: #fff;
+    }
+
+    .resultsgrid tr td.image {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.alert {
+    font-weight: bold;
+    color: #cc0000;
+}
+
+.indent10 {
+    text-indent: 10px;
+}
+
+
+
+
+/* Form */
+
+.help {
+    border: 1px solid #F77510;
+    background: #FFC598 url(/images/icons/16/alert.png) no-repeat;
+    padding: 4px 4px 4px 24px;
+    background-position: 4px 4px;
+    color: #512503;
+    margin-bottom: 6px;
+}
+
+fieldset {
+    margin: 0px 0px 10px 0px;
+    border: none;
+    padding: 0px;
+}
+
+    fieldset legend {
+        font-weight: bold;
+        color: #666;
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    fieldset .note {
+        color: #666;
+        font-size: 12px;
+    }
+
+    fieldset div.readonly {
+        padding: 2px 0px 0px 0px;
+        margin: 0px;
+        float: left;
+        width: 74%;
+    }
+
+        fieldset div.readonly div {
+            float: left;
+        }
+
+    fieldset.alternative label {
+        display: block;
+        float: none;
+        text-align: left;
+        width: auto;
+        padding: 0px;
+    }
+
+    fieldset label {
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+        width: 20%;
+        padding-right: 3px;
+        font-weight: bold;
+        float: left;
+        border: 1px solid Transparent;
+    }
+
+        fieldset label.citizen {
+            display: inline-block;
+            vertical-align: top;
+            text-align: right;
+            width: 250px;
+            padding-right: 3px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            float: left;
+            border: 1px solid Transparent;
+        }
+
+    /* Remove ugly borders around labels on IE6 */
+    * html fieldset label {
+        border-color: pink;
+        filter: chroma(color=pink);
+    }
+
+    fieldset.wide label {
+        width: 28%;
+    }
+
+    fieldset .value {
+        float: left;
+        width: 79%;
+    }
+/*#484 add myvalue,used in page i9_form_1e.aspx, and section1sig.ascx*/
+.myvalue {
+    padding-top: 17px;
+}
+
+fieldset.wide .value {
+    float: left;
+    width: 70%;
+}
+
+fieldset .value .message {
+    font-weight: bold;
+    color: #cc0000;
+}
+
+.onehalf fieldset label {
+    width: 26%;
+}
+
+.onehalf fieldset .value {
+    width: 72%;
+}
+
+fieldset ol {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset ul {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+fieldset ol li {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+li.firstcol {
+    line-height: 1.5em;
+    list-style-type: none;
+}
+
+li.secondcol {
+    line-height: 1.2em;
+    list-style-type: none;
+    margin-left: 15em;
+    margin-top: -1.70em;
+}
+
+li.thirdcol {
+    line-height: 1.2em;
+    list-style-type: none;
+    margin-left: 30em;
+    margin-top: -1.50em;
+}
+
+
+fieldset ol li .requiredfieldvalidator {
+    margin-left: 153px;
+}
+
+fieldset span.required {
+    /* padding-left: 130px; */ /* Needed for asp:label since it is rendered as a span and not a label */
+    border: 1px solid Transparent;
+    display: inline-block;
+    font-weight: bold;
+    float: left;
+    padding-right: 3px;
+    text-align: right;
+    vertical-align: top;
+    width: 20%;
+}
+
+fieldset span.notrequired {
+    /* padding-left: 130px; */ /* Needed for asp:label since it is rendered as a span and not a label */
+    border: 1px solid Transparent;
+    display: inline-block;
+    font-weight: bold;
+    float: left;
+    padding-right: 3px;
+    text-align: right;
+    vertical-align: top;
+    width: 20%;
+}
+
+/* Remove ugly borders around spans on IE6 */
+* html fieldset span.notrequired {
+    border-color: pink;
+    filter: chroma(color=pink);
+}
+
+
+/* Remove ugly borders around spans on IE6 */
+* html fieldset span.required {
+    border-color: pink;
+    filter: chroma(color=pink);
+}
+
+fieldset span.disabled {
+    /* Needed for asp:label since it is rendered as a span and not a label */
+    border: 1px solid Transparent;
+    display: inline-block;
+    font-weight: bold;
+    color: Gray;
+    float: left;
+    padding-right: 3px;
+    text-align: right;
+    vertical-align: top;
+    width: 20%;
+}
+
+/* Remove ugly borders around spans on IE6 */
+* html fieldset span.disabled {
+    border-color: pink;
+    filter: chroma(color=pink);
+}
+
+fieldset .othercontrol label {
+    display: inline;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1.6em;
+    width: auto;
+    font-weight: normal;
+    float: left;
+}
+
+fieldset .othercontrol input {
+    float: left;
+}
+
+fieldset .othercontrol tr td {
+    vertical-align: top;
+}
+
+fieldset .threecolumn tr td {
+    width: 33%;
+}
+
+fieldset .threecolumn label {
+    width: 80%;
+}
+
+fieldset .table {
+    margin-left: 131px;
+    margin-top: -20px;
+}
+
+fieldset.small label {
+    width: 85px;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+fieldset.small ol li {
+    padding: 3px;
+}
+
+.required:first-letter {
+    color: #cc0000;
+}
+
+.notrequired {
+    color: #999696;
+}
+
+.pageError {
+    font-weight: bold;
+    font-size: 14px;
+    color: #990000;
+}
+
+.warning {
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+
+.note {
+    font-size: 11px;
+    color: #666666;
+}
+
+.action_required {
+    color: red;
+}
+
+.alert {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+
+#main_help, #main_help_c, #main_help_ext {
+    margin: 0px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 5px;
+    width: 345px;
+    min-height: 150px;
+    float: left;
+}
+
+#main_help_left, #main_help_left_c {
+    width: 110px;
+    float: left;
+    margin: 1px;
+}
+
+#main_help_right, #main_help_right_c {
+    width: 230px;
+    float: left;
+    margin: 1px;
+    padding-top: 5px;
+}
+
+ul.enlarge {
+    list-style-type: none; /*remove the bullet point*/
+    padding: 0;
+}
+
+ul.enlarge li {
+    padding: 0;
+    position: relative;
+    z-index: 0; /*resets the stack order of the list items - later we'll increase this*/
+}
+
+ul.enlarge img {
+    border: 1px solid #999;
+    width: 100px;
+}
+
+ul.enlarge span {
+    position: absolute;
+    left: -9999px;
+    padding: 1px;
+    border: 1px solid #999;
+}
+
+ul.enlarge li:hover {
+    z-index: 50;
+    cursor: pointer;
+}
+
+ul.enlarge span img {
+    width: 400px;
+}
+
+ul.enlarge li:hover span {
+    top: -200px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+    left: -150px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+ul.enlarge li:hover:nth-child(2) span {
+    left: -100px;
+}
+
+ul.enlarge li:hover:nth-child(3) span {
+    left: -200px;
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+ul.enlarge img, ul.enlarge span {
+    behavior: url(pie/PIE.htc);
+}
+
+
+.div_until {
+    display: inline-block;
+    width: 71%;
+}
+
+.div_until > .citizen {
+    width: 38%;
+    text-align: unset;
+    padding-right: 0px;
+    float: none;
+    margin-top: 2px; 
+    font-weight: normal;
+}
+
+.div_until > .work_until {
+    margin-top: 0px;
+}
+
+.div_admission > .citizen, .COI > .citizen {
+    width: auto;
+    text-align: unset;
+    padding-right: 0px;
+    float: none;
+    margin-top: 4px; 
+}
+
+.text {
+    width: 100%;
+    text-align: unset;
+    float: none;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+.COI {
+    margin: 0 0 0 20px;
+}
+
+.work_until_validator {
+    padding-left: 18.13rem;
+}
+
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  visibility: visible;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.tooltip.in {
+  filter: alpha(opacity=90);
+  opacity: .9;
+}
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+.tooltip.right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+.tooltip.bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+.tooltip.left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+}
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+.tooltip.top-right .tooltip-arrow {
+  right: 5px;
+  bottom: 0;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000;
+}
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
+}
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.popover.top {
+  margin-top: -10px;
+}
+.popover.right {
+  margin-left: 10px;
+}
+.popover.bottom {
+  margin-top: 10px;
+}
+.popover.left {
+  margin-left: -10px;
+}
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+.popover-content {
+  padding: 9px 14px;
+}
+.popover > .arrow,
+.popover > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.popover > .arrow {
+  border-width: 11px;
+}
+.popover > .arrow:after {
+  content: "";
+  border-width: 10px;
+}
+.popover.top > .arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, .25);
+  border-bottom-width: 0;
+}
+.popover.top > .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0;
+}
+.popover.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, .25);
+  border-left-width: 0;
+}
+.popover.right > .arrow:after {
+  bottom: -10px;
+  left: 1px;
+  content: " ";
+  border-right-color: #fff;
+  border-left-width: 0;
+}
+.popover.bottom > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+.popover.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+.popover.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, .25);
+}
+.popover.left > .arrow:after {
+  right: 1px;
+  bottom: -10px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff;
+}
+.popUpIcon {
+    float: left;
+    margin-left: 3px;
+}
+.fa-info-circle {
+    font-size: 18px;
+}
+
+.removeWidth {
+	width: auto !important;
+}
+li.fourthcol {
+    line-height: 1.2em;
+    list-style-type: none;
+    margin-left: 45em;
+    margin-top: -1.50em;
+}
+
+.popoverWide + .popover {
+    width: 500px;
+    max-width: none;
+}

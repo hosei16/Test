@@ -1,0 +1,30 @@
+~/Documents$ find cowgirl.txt:
+
+cowgirl.txt
+
+find -name crapfile.txt:
+
+./crapfile.txt
+
+
+grep 'waffles' crapfile.txt:
+
+waffles
+dc has waffles
+tokyo has waffles
+
+grep -R 'waffles':
+
+crapfile.txt:waffles
+crapfile.txt:dc has waffles
+crapfile.txt:tokyo has waffles
+cowgirl:waffles are awesome
+cowgirl:where are waffles from
+crapfile:grep 'waffles' crapfile.txt:
+crapfile:waffles
+crapfile:dc has waffles
+crapfile:tokyo has waffles
+LinuxAssignment:waffles 
+LinuxAssignment:waffles stink 
+LinuxAssignment:you stink of waffles
+

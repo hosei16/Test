@@ -1,0 +1,28 @@
+print(pow(7,2))
+print(abs())
+print(max(7,2))
+print(min(7,2))
+print(round(234.65))
+lucky_numbers.extend(name_friends)  --- adds two list together
+
+lucky_numbers.append(98) ---- adds numbers onto list
+
+
+lucky_numbers.insert(2, 768) ------ insert number at specific index number
+
+
+lucky_numbers.remove(25) ----- remove from list
+
+
+lucky_numbers.pop()------- removes element off list
+
+
+print(lucky_numbers.count(98)) ------- how many times a value appears in a list
+
+
+lucky_numbers.sort() ------ sorts in ascending order
+
+
+lucky_numbers.reverse() ------- reverses list
+
+num2 = lucky_numbers.copy ------ copy list

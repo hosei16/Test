@@ -1,0 +1,33 @@
+////////////////////////
+
+#!/bin/bash
+
+clear
+echo"Hello"
+read -p "Please Enter Your Names: " name
+echo "$name" >> names.txt
+clear
+echo -e "Hello $name\nYourname has been added to the list."
+echo"============================="
+cat names.txt
+
+
+echo"============================="
+echo "Goodbye $name"
+sleep 3
+
+//////////////////
+
+
+chmod 755 myscript:
+
+./myscript:
+
+
+Hello Henry
+Yourname has been added to the list.
+./myscript: line 9: echo=============================: command not found
+Henry
+./myscript: line 13: echo=============================: command not found
+Goodbye Henry
+
